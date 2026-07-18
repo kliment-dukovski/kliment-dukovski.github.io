@@ -5,7 +5,7 @@ date: 2026-07-18
 category: "Stablecoins"
 publication: "Kliment Dukovski"
 summary: "Why reserve yield alone is not a durable advantage, and how distribution, liquidity, trust, and integrations create defensible stablecoin businesses."
-image: "/assets/images/article-placeholder-01.webp"
+image: "/assets/images/article-placeholder-01.svg"
 image_alt: "Stablecoin market and distribution illustration"
 ---
 
