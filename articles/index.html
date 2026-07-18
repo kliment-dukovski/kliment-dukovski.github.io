@@ -1,0 +1,198 @@
+---
+title: My Articles
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>My Articles — Kliment Dukovski</title>
+
+  <meta
+    name="description"
+    content="Articles by Kliment Dukovski on cryptocurrency, investing, markets, stablecoins, personal finance, and emerging technology."
+  >
+
+  <meta name="theme-color" content="#f4f2ed">
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/styles.css' | relative_url }}"
+  >
+
+  <script
+    src="{{ '/assets/js/content.js' | relative_url }}"
+    defer
+  ></script>
+
+  <script
+    src="{{ '/assets/js/site.js' | relative_url }}"
+    defer
+  ></script>
+</head>
+
+<body data-page="articles">
+  <a class="skip-link" href="#main-content">
+    Skip to content
+  </a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a
+        class="identity"
+        href="{{ '/' | relative_url }}"
+        aria-label="Kliment Dukovski home page"
+      >
+        <span class="avatar">
+          <img
+            src="{{ '/assets/images/profile.png' | relative_url }}"
+            alt="Kliment Dukovski"
+            width="84"
+            height="84"
+          >
+        </span>
+
+        <span class="identity-copy">
+          <strong>Kliment Dukovski</strong>
+          <span>Writer / Novelist</span>
+        </span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        data-menu-button
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="site-nav"
+        id="site-navigation"
+        data-menu
+        aria-label="Primary navigation"
+      >
+        <a
+          href="{{ '/' | relative_url }}"
+          data-nav-page="about"
+        >
+          About
+        </a>
+
+        <a
+          href="{{ '/articles/' | relative_url }}"
+          data-nav-page="articles"
+        >
+          My Articles
+        </a>
+
+        <a
+          href="{{ '/fiction.html' | relative_url }}"
+          data-nav-page="fiction"
+        >
+          Fiction Hub
+        </a>
+
+        <a
+          href="{{ '/work-history.html' | relative_url }}"
+          data-nav-page="work"
+        >
+          Work History
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <header class="page-hero">
+      <div class="container page-hero-inner">
+
+        <div>
+          <p class="section-label">
+            Writing archive
+          </p>
+
+          <h1>My Articles</h1>
+        </div>
+
+        <p class="page-intro">
+          Cryptocurrency, investing, stablecoins, markets, personal finance,
+          and emerging technology. Newest articles appear first.
+        </p>
+
+      </div>
+    </header>
+
+    <section class="section" aria-label="All articles">
+      <div class="container">
+
+        <div class="article-grid">
+          {% for post in paginator.posts %}
+            {% include article-card.html post=post %}
+          {% endfor %}
+        </div>
+
+        {% if paginator.total_pages > 1 %}
+          <nav class="pagination" aria-label="Article archive pages">
+
+            {% if paginator.previous_page %}
+              <a
+                href="{{ paginator.previous_page_path | relative_url }}"
+                class="pagination-previous"
+              >
+                ← Newer articles
+              </a>
+            {% else %}
+              <span></span>
+            {% endif %}
+
+            <span class="pagination-status">
+              Page {{ paginator.page }} of {{ paginator.total_pages }}
+            </span>
+
+            {% if paginator.next_page %}
+              <a
+                href="{{ paginator.next_page_path | relative_url }}"
+                class="pagination-next"
+              >
+                Older articles →
+              </a>
+            {% else %}
+              <span></span>
+            {% endif %}
+
+          </nav>
+        {% endif %}
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-current-year></span> Kliment Dukovski
+      </span>
+
+      <span>
+        <a href="{{ '/' | relative_url }}">
+          Back to portfolio
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

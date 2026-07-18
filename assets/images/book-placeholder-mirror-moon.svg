@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1600" role="img" aria-label="Mirror Moon cover placeholder">
+  <rect width="1000" height="1600" fill="#eeece6"/>
+  <circle cx="500" cy="665" r="300" fill="#d8d6d1" stroke="#77736c" stroke-width="3"/>
+  <path d="M250 670c145-115 355-115 500 0" fill="none" stroke="#aaa59c" stroke-width="5"/>
+  <text x="500" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" letter-spacing="12" fill="#67635d">TITANOMACHIA</text>
+  <text x="500" y="1290" text-anchor="middle" font-family="Georgia, serif" font-size="100" fill="#1b1b19">MIRROR MOON</text>
+  <text x="500" y="1425" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" letter-spacing="8" fill="#67635d">KLIMENT DUKOVSKI</text>
+</svg>

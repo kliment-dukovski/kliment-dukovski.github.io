@@ -1,0 +1,146 @@
+---
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kliment Dukovski — Writer & Novelist</title>
+  <meta name="description" content="Portfolio of Kliment Dukovski, a cryptocurrency and investments writer and science-fiction novelist.">
+  <meta name="theme-color" content="#f4f2ed">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/content.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="identity" href="index.html" aria-label="Kliment Dukovski home page">
+        <span class="avatar">
+          <!-- Replace this file with your own square portrait. -->
+          <img src="assets/images/profile.png" alt="Kliment Dukovski" width="84" height="84">
+        </span>
+        <span class="identity-copy">
+          <strong>Kliment Dukovski</strong>
+          <span>Writer / Novelist</span>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" data-menu-button aria-label="Open navigation" aria-expanded="false" aria-controls="site-navigation">
+        <span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" data-menu aria-label="Primary navigation">
+        <a href="index.html" data-nav-page="about">About</a>
+        <a href="articles.html" data-nav-page="articles">My Articles</a>
+        <a href="fiction.html" data-nav-page="fiction">Fiction Hub</a>
+        <a href="work-history.html" data-nav-page="work">Work History</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="about-heading">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Independent portfolio</p>
+          <h1 id="about-heading">Writing about <em>finance, technology, and other worlds.</em></h1>
+          <p class="hero-copy">
+            I’m <strong>Kliment Dukovski</strong>, an investments and crypto writer with more than a decade of experience, and the author of several science-fiction novels. My work covers digital assets, markets, personal finance, emerging technologies, and speculative fiction.
+          </p>
+          <div class="actions">
+            <a class="button" href="articles.html">Read my articles</a>
+            <a class="button secondary" href="mailto:dukovski.kliment@gmail.com">Contact me</a>
+          </div>
+        </div>
+
+        <aside aria-label="Career summary">
+          <dl class="facts">
+            <div><dt>Experience</dt><dd>11+ years</dd></div>
+            <div><dt>Published</dt><dd>2,000+ articles</dd></div>
+            <div><dt>Books</dt><dd>Multiple novels and novellas</dd></div>
+            <div><dt>Focus</dt><dd>Crypto, finance, tech & fiction</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="articles-heading">
+  <div class="container">
+    <header class="section-head">
+      <div>
+        <p class="section-label">Latest writing</p>
+        <h2 id="articles-heading">My Articles</h2>
+      </div>
+
+      <p class="section-note">
+        The four most recently added articles appear here automatically.
+      </p>
+    </header>
+
+    <div class="article-grid">
+      {% for post in site.posts limit: 4 %}
+        {% include article-card.html post=post %}
+      {% endfor %}
+    </div>
+
+    <div class="section-end">
+      <a class="more-link" href="articles.html">
+        View all articles →
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section class="section" aria-labelledby="fiction-heading">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="section-label">Latest books</p>
+            <h2 id="fiction-heading">Fiction Hub</h2>
+          </div>
+          <p class="section-note">Latest books.</p>
+        </header>
+
+        <div class="book-grid" data-home-books></div>
+
+        <div class="section-end">
+          <a class="more-link" href="fiction.html">View all books →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section compact" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="section-head">
+          <div>
+            <p class="section-label">Selected experience</p>
+            <h2 id="work-heading">Work History</h2>
+          </div>
+          <p class="section-note">A brief overview here, with the complete career history on its own page.</p>
+        </header>
+
+        <div class="work-list" data-home-work></div>
+
+        <div class="section-end">
+          <a class="more-link" href="work-history.html">Read full work history →</a>
+        </div>
+      </div>
+    </section>
+
+    <aside class="container contact-strip" aria-label="Contact">
+      <h2>Have a writing project, editorial role, or story worth discussing?</h2>
+      <a class="button" href="mailto:dukovski.kliment@gmail.com">Send an email</a>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span data-current-year></span> Kliment Dukovski</span>
+      <span>Hosted on <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a></span>
+    </div>
+  </footer>
+</body>
+</html>

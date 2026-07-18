@@ -1,0 +1,15 @@
+title: Kliment Dukovski
+description: Cryptocurrency and investments writer and science-fiction novelist.
+
+url: "https://kliment-dukovski.github.io"
+baseurl: ""
+
+permalink: /articles/:slug/
+
+markdown: kramdown
+
+paginate: 12
+paginate_path: "/articles/page:num/"
+
+plugins:
+  - jekyll-paginate

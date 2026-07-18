@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <title>{{ page.title | escape }} — Kliment Dukovski</title>
+
+  <meta
+    name="description"
+    content="{{ page.summary | escape }}"
+  >
+
+  <meta name="theme-color" content="#f4f2ed">
+
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/styles.css' | relative_url }}"
+  >
+
+  <script
+    src="{{ '/assets/js/site.js' | relative_url }}"
+    defer
+  ></script>
+</head>
+
+<body data-page="articles">
+  <a class="skip-link" href="#main-content">
+    Skip to content
+  </a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a
+        class="identity"
+        href="{{ '/' | relative_url }}"
+        aria-label="Kliment Dukovski home page"
+      >
+        <span class="avatar">
+          <img
+            src="{{ '/assets/images/profile.png' | relative_url }}"
+            alt="Kliment Dukovski"
+            width="84"
+            height="84"
+          >
+        </span>
+
+        <span class="identity-copy">
+          <strong>Kliment Dukovski</strong>
+          <span>Writer / Novelist</span>
+        </span>
+      </a>
+
+      <button
+        class="menu-button"
+        type="button"
+        data-menu-button
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="site-navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="site-nav"
+        id="site-navigation"
+        data-menu
+        aria-label="Primary navigation"
+      >
+        <a
+          href="{{ '/' | relative_url }}"
+          data-nav-page="about"
+        >
+          About
+        </a>
+
+        <a
+          href="{{ '/articles/' | relative_url }}"
+          data-nav-page="articles"
+        >
+          My Articles
+        </a>
+
+        <a
+          href="{{ '/fiction.html' | relative_url }}"
+          data-nav-page="fiction"
+        >
+          Fiction Hub
+        </a>
+
+        <a
+          href="{{ '/work-history.html' | relative_url }}"
+          data-nav-page="work"
+        >
+          Work History
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="article-page">
+
+      <header class="article-header container">
+        <a
+          class="article-back-link"
+          href="{{ '/articles/' | relative_url }}"
+        >
+          ← All articles
+        </a>
+
+        <p class="article-kicker">
+          {{ page.category | escape }}
+          ·
+          <time datetime="{{ page.date | date_to_xmlschema }}">
+            {{ page.date | date: "%B %-d, %Y" }}
+          </time>
+        </p>
+
+        <h1>{{ page.title | escape }}</h1>
+
+        {% if page.summary %}
+          <p class="article-deck">
+            {{ page.summary | escape }}
+          </p>
+        {% endif %}
+
+        <p class="article-byline">
+          By Kliment Dukovski
+        </p>
+      </header>
+
+      {% if page.image %}
+        <figure class="article-featured-image container">
+          <img
+            src="{{ page.image | relative_url }}"
+            alt="{{ page.image_alt | default: page.title | escape }}"
+            width="1400"
+            height="875"
+          >
+
+          {% if page.image_caption %}
+            <figcaption>
+              {{ page.image_caption }}
+            </figcaption>
+          {% endif %}
+        </figure>
+      {% endif %}
+
+      <div class="article-content container">
+        {{ content }}
+      </div>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>
+        © <span data-current-year></span> Kliment Dukovski
+      </span>
+
+      <span>
+        <a href="{{ '/articles/' | relative_url }}">
+          More articles
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>

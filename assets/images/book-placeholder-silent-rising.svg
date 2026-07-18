@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1600" role="img" aria-label="Silent Rising cover placeholder">
+  <rect width="1000" height="1600" fill="#efede7"/>
+  <path d="M190 1040c115-250 205-390 310-570 105 180 195 320 310 570" fill="none" stroke="#747069" stroke-width="4"/>
+  <path d="M325 930h350" stroke="#aca79e" stroke-width="3"/>
+  <text x="500" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="35" letter-spacing="9" fill="#67635d">FLESH AND STEEL</text>
+  <text x="500" y="1295" text-anchor="middle" font-family="Georgia, serif" font-size="105" fill="#191917">SILENT RISING</text>
+  <text x="500" y="1435" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" letter-spacing="8" fill="#67635d">KLIMENT DUKOVSKI</text>
+</svg>
