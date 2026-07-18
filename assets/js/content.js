@@ -14,16 +14,16 @@ window.PORTFOLIO_CONTENT = {
 
   books: [
     {
-      title: "Mirror Moon",
-      series: "Titanomachia · Book One",
+      title: "MM",
+      series: "Classified · Book One",
       year: "2026",
       published: "2026-07-01",
       description:
-        "A ten-year-old girl enters a game that is more connected to reality than anyone understands. A mirrored moon, hidden systems, and a conflict larger than the world she knows wait on the other side.",
+        "Placeholder text because it's a secret.",
       amazonUrl: "https://www.amazon.com/dp/YOUR_ASIN",
       detailsUrl: "#",
       cover: "assets/images/book-placeholder-mirror-moon.svg",
-      coverAlt: "Placeholder cover for Mirror Moon",
+      coverAlt: "Placeholder cover for MM",
       rating: 4.7,
       reviewCount: 28
     },
@@ -111,7 +111,7 @@ window.PORTFOLIO_CONTENT = {
       role: "Science-Fiction Author",
       company: "Independent publishing",
       description:
-        "Author of several science-fiction novels and novellas, including the Titanomachia and Flesh and Steel series.",
+        "Author of several science-fiction novels and novellas, including the Ti and Flesh and Steel series.",
       links: [
         { label: "Explore the books", url: "fiction.html" }
       ]
