@@ -6,7 +6,7 @@ category: "Altcoins"
 publication: "Kliment Dukovski"
 summary: "Jupiter has grown from a Solana swap aggregator into a multi-product crypto platform. Could its JUP token become a standout altcoin in the next market cycle?"
 image: "/assets/images/jupiter-logo.png"
-image_alt: "Jupiter crypto platform logo on a dark background"
+image_alt: "Jupiter logo"
 image_caption: "Jupiter logo | Jupiter"
 slug: "jupiter-jup-best-altcoin-next-crypto-cycle"
 ---
@@ -30,7 +30,7 @@ One token that could see a massive price surge in the next bull cycle is JUP, Ju
 Crypto traders and investors who have interacted with the Solana blockchain, whether trading meme coins during the 2024 mania or buying tokenized stocks during the 2025-2026 TradFi bull run, have undoubtedly encountered Jupiter.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/jupiter-swap-interface.png' | relative_url }}" alt="Jupiter Swap interface for exchanging USDC and SOL" loading="lazy">
+  <img src="{{ '/assets/images/jupiter-swap-interface.png' | relative_url }}" alt="Jupiter Swap" loading="lazy">
   <figcaption>Jupiter Swap | Jupiter</figcaption>
 </figure>
 
@@ -43,7 +43,7 @@ Looking at the JUP price chart, however, it seems the buybacks didn’t have any
 Within one year of the buyback program's start, almost 60% more JUP tokens had been unlocked. The amount of buybacks simply couldn’t absorb the influx of new tokens during a bear market.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/jup-weekly-chart.png' | relative_url }}" alt="Weekly JUP price chart showing token buybacks and net-zero emissions" loading="lazy">
+  <img src="{{ '/assets/images/jup-weekly-chart.png' | relative_url }}" alt="JUP weekly chart" loading="lazy">
   <figcaption>JUP weekly chart | Birdeye</figcaption>
 </figure>
 
@@ -70,7 +70,7 @@ Either option requires financial gymnastics and higher-than-necessary fees, resu
 Jupiter has been building their *magnum opus*, the solution, in silence for the past couple of years. Today, the Global Unified Market (GUM) is in mainnet beta and available for anyone to try. Users can trade crypto seamlessly across multiple blockchains, earn passive income with various yield farming strategies, or trade perps in a completely decentralized and anonymous way.
 
 <figure class="article-figure article-figure-wide">
-  <img src="{{ '/assets/images/jupiter-global-unified-market.png' | relative_url }}" alt="Jupiter Global Unified Market interface for trading crypto across chains" loading="lazy">
+  <img src="{{ '/assets/images/jupiter-global-unified-market.png' | relative_url }}" alt="Global Unified Market" loading="lazy">
   <figcaption>Global Unified Market | Jupiter</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ Other Jupiter revenue streams include:
 Jupiter also offers a crypto wallet available as a browser extension and a mobile app. Almost everything available in the Jupiter ecosystem is available within the wallet app, including Limit, DCA, perps, predict, earn, and more.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/jupiter-wallet-app.png' | relative_url }}" alt="Jupiter Wallet mobile app showing trading, token, and wallet screens" loading="lazy">
+  <img src="{{ '/assets/images/jupiter-wallet-app.png' | relative_url }}" alt="Jupiter Wallet app" loading="lazy">
   <figcaption>Jupiter Wallet app | Author screenshot</figcaption>
 </figure>
 
