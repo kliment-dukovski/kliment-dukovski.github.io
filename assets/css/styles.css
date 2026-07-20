@@ -909,6 +909,21 @@ body[data-page="work"] main > .section {
   margin: 30px 0;
 }
 
+.article-figure {
+  margin: 34px 0;
+}
+
+.article-figure img {
+  display: block;
+  margin: 0;
+}
+
+.article-figure figcaption {
+  margin-top: 9px;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .article-content hr {
   margin: 48px 0;
   border: 0;
