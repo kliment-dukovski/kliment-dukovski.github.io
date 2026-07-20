@@ -122,3 +122,5 @@ Jupiter is the leading Solana swap aggregator, aiming to become the ultimate tra
 During the bear market, JUP traded between \$0.19 and \$0.25, while top altcoins dropped by double digits. When the bull kicks in, Jupiter’s revenue should increase, further boosting the token price. But even if the new bull run is different from the others, with liquidity moving to opening Gacha packs, predicting future events, or simply trading perps, Jupiter is well positioned to take advantage of that.
 
 As with any crypto investment, there are risks, so never invest more than you can afford to lose.
+
+Disclosure: This article is for informational purposes only and does not constitute financial advice.
