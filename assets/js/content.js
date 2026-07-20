@@ -13,6 +13,7 @@ window.PORTFOLIO_CONTENT = {
   articles: [],
 
   books: [
+    /*
     {
       title: "MM",
       series: "Classified · Book One",
@@ -27,6 +28,7 @@ window.PORTFOLIO_CONTENT = {
       rating: 4.7,
       reviewCount: 28
     },
+    */
     {
       title: "Ancient Legacy",
       series: "Flesh and Steel · Book Three",
