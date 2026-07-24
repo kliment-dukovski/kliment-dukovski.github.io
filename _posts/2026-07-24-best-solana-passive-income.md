@@ -4,6 +4,7 @@ title: "5 Best Ways to Earn Passive Income on Solana in 2026"
 seo_title: "5 Best Solana Passive Income Options in 2026"
 date: 2026-07-24
 last_modified_at: 2026-07-24
+use_yields_last_modified: true
 category: "Solana"
 tags:
   - Solana passive income
@@ -496,20 +497,6 @@ Yes! Keep at least 0.2 SOL in your wallet to ensure smooth transaction execution
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Article",
-      "headline": {{ page.title | jsonify }},
-      "description": {{ page.summary | jsonify }},
-      "image": {{ page.image | absolute_url | jsonify }},
-      "author": {
-        "@type": "Person",
-        "name": "Kliment Dukovski",
-        "url": {{ '/' | absolute_url | jsonify }}
-      },
-      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-      "dateModified": {{ site.data.yields.last_changed_at | date_to_xmlschema | jsonify }},
-      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }}
-    },
     {
       "@type": "FAQPage",
       "mainEntity": [

@@ -2,19 +2,22 @@ title: "Kliment Dukovski"
 description: "Cryptocurrency, investing, finance, and technical writing by Kliment Dukovski."
 url: "https://kliment-dukovski.github.io"
 baseurl: ""
+social_image: "/assets/images/profile.png"
 
 permalink: /articles/:slug/
 
 author:
   name: "Kliment Dukovski"
   url: "https://kliment-dukovski.github.io/"
+  image: "/assets/images/profile.png"
+  job_title: "Cryptocurrency and Investments Writer"
+  description: "Cryptocurrency and investments writer with more than 11 years of experience."
   same_as:
     - "https://medium.com/@dukovski.kliment"
     - "https://www.linkedin.com/in/klimentdukovski/"
     - "https://x.com/KlimentDuke"
     - "https://www.finder.com/author/klimentdukovski"
     - "https://finbold.com/author/kliment/"
-    
 
 markdown: kramdown
 
@@ -25,3 +28,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+
+defaults:
+  - scope:
+      path: "google54c011f00fde185c.html"
+    values:
+      sitemap: false
