@@ -456,6 +456,8 @@ Liquid staking is more flexible, while JUICED and Huma Classic serve investors w
 
 As with any crypto investment, never invest more than you can afford to lose.
 
+This article is for informational purposes only and is not financial advice.
+
 ## Frequently asked questions
 
 ### What is the safest way to earn passive income with SOL?
