@@ -8,12 +8,16 @@
     content="width=device-width, initial-scale=1"
   >
 
+{% include seo.html %}
+  
   <title>{{ page.title | escape }} — Kliment Dukovski</title>
 
   <meta
     name="description"
     content="{{ page.summary | escape }}"
   >
+
+  
 
   <meta name="theme-color" content="#f4f2ed">
 
@@ -156,6 +160,8 @@
 
       <div class="article-content container">
         {{ content }}
+        
+        {% include author-box.html %}
       </div>
 
     </article>
