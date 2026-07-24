@@ -15,7 +15,7 @@ tags:
 publication: "Kliment Dukovski"
 summary: "Compare the top five passive income options on Solana, including SOL staking and stablecoin lending, with yields and risks explained."
 description: "Compare the top five passive income options on Solana, including SOL staking and stablecoin lending, with yields and risks explained."
-image: "/assets/images/solana-passive-income.png"
+image: "/assets/images/solana-passive-income.webp"
 image_alt: "Solana passive income illustration with the Solana logo, coin stacks, and an upward line"
 slug: "best-solana-passive-income"
 permalink: "/articles/best-solana-passive-income/"
@@ -74,7 +74,7 @@ Check out <a href="https://jup.ag/?ref=exnjlv6tzivh" rel="sponsored nofollow">Ju
 Native staking is the simplest way to earn passive income from your SOL holdings. This works by delegating SOL coins to a validator of your choice, and you receive staking rewards while retaining ownership of your coins.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/solana-native-staking.png' | relative_url }}" alt="Solana staking process from delegating SOL to earning validator rewards" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/solana-native-staking.webp' | relative_url }}" alt="Solana staking process from delegating SOL to earning validator rewards" width="1332" height="742" loading="lazy" decoding="async">
   <figcaption>Solana staking | Solana</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ Leading Solana validators include: [Jupiter](https://jup.ag/stake), [Marinade](h
 Liquid staking is similar to native SOL staking, with one major difference: you can continue using your coins on DeFi platforms while they are staked. This is an excellent option for those who want to keep their SOL liquid and earn passive yield at the same time.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/solana-liquid-staking.png' | relative_url }}" alt="Liquid staking process showing SOL staked for a liquid staking token that remains usable in DeFi" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/solana-liquid-staking.webp' | relative_url }}" alt="Liquid staking process showing SOL staked for a liquid staking token that remains usable in DeFi" width="1672" height="941" loading="lazy" decoding="async">
   <figcaption>Solana liquid staking</figcaption>
 </figure>
 
@@ -180,7 +180,7 @@ Popular LSTs on Solana are INF, JitoSol, jupSOL, hSOL, mSOL, bonkSOL, and bSOL.
 As the name suggests, JLP (Jupiter Liquidity Provider) is the liquidity-providing token for Jupiter Perps. It represents a basket of SOL, ETH, wBTC, and stablecoins and serves as the counterparty to traders on Jupiter’s perpetual futures platform. JLP token holders earn 75% of the Jupiter Perps fees, which are automatically reflected in the token’s price.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/jlp-yield-explained.png' | relative_url }}" alt="JLP yield diagram showing its asset basket, trader profit and loss, and Jupiter Perps fees" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/jlp-yield-explained.webp' | relative_url }}" alt="JLP yield diagram showing its asset basket, trader profit and loss, and Jupiter Perps fees" width="1672" height="941" loading="lazy" decoding="async">
   <figcaption>Jupiter Liquidity Provider (JLP) token</figcaption>
 </figure>
 
@@ -221,7 +221,7 @@ Investors can increase their JLP exposure by using the token as collateral to bo
 This is called “looping”, and you can do it manually or use Kamino or Jupiter Lend’s multiply strategies for automatic looping.
 
 <figure class="article-figure article-figure-wide">
-  <img src="{{ '/assets/images/jupiter-lend-jlp-multiply.png' | relative_url }}" alt="Jupiter Lend JLP multiply interface showing leverage, supply APY, borrow APY, and health status" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/jupiter-lend-jlp-multiply.webp' | relative_url }}" alt="Jupiter Lend JLP multiply interface showing leverage, supply APY, borrow APY, and health status" width="2048" height="1004" loading="lazy" decoding="async">
   <figcaption>Jupiter Lend JLP multiply | Jupiter</figcaption>
 </figure>
 
@@ -291,7 +291,7 @@ As with any Solana token, the process goes like this:
 Similar to SOL liquid staking tokens, Jupiter has introduced a liquid staking stablecoin called JUICED. Currently, JUICED offers the highest stablecoin yield for passive income simply by holding it in your wallet.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/juiced-yield-explained.png' | relative_url }}" alt="JUICED yield diagram showing JupUSD borrowing interest and Treasury-bill reserve yield accruing into the token price" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/juiced-yield-explained.webp' | relative_url }}" alt="JUICED yield diagram showing JupUSD borrowing interest and Treasury-bill reserve yield accruing into the token price" width="1672" height="941" loading="lazy" decoding="async">
   <figcaption>JUICED</figcaption>
 </figure>
 
@@ -360,7 +360,7 @@ There are two ways to get JUICED:
 Huma Classic differs from most yield-bearing strategies on Solana because it’s tokenized private credit, not ordinary stablecoin lending like those on Jupiter or Kamino. As a result, its yield is potentially more durable than temporary incentives, which are common in DeFi. However, this product carries slightly higher risk than other stablecoin lending strategies.
 
 <figure class="article-figure article-figure-portrait">
-  <img src="{{ '/assets/images/huma-classic.png' | relative_url }}" alt="Huma Classic deposit interface showing a six-month USDC strategy" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/huma-classic.webp' | relative_url }}" alt="Huma Classic deposit interface showing a six-month USDC strategy" width="1172" height="1081" loading="lazy" decoding="async">
   <figcaption>Huma Classic | Huma Finance</figcaption>
 </figure>
 
