@@ -974,3 +974,37 @@ body[data-page="work"] main > .section {
     white-space: nowrap;
   }
 }
+
+.author-box {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(20, 20, 20, 0.16);
+}
+
+.author-box__label {
+  margin: 0 0 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.author-box__name {
+  margin: 0 0 0.65rem;
+  font-size: 1.25rem;
+}
+
+.author-box__name a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author-box p {
+  max-width: 42rem;
+}
+
+.author-box .text-link {
+  display: inline-block;
+  margin-top: 0.25rem;
+}
