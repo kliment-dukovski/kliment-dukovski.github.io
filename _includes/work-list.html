@@ -1,0 +1,29 @@
+{% if include.limit %}
+  {% assign work_items = site.data.work_history | slice: 0, include.limit %}
+{% else %}
+  {% assign work_items = site.data.work_history %}
+{% endif %}
+
+<div class="work-list">
+  {% for item in work_items %}
+    <article class="work-card">
+      <div class="work-period">{{ item.period | escape }}</div>
+      <div>
+        <h3>{{ item.role | escape }}</h3>
+        <div class="work-company">{{ item.company | escape }}</div>
+      </div>
+      <div class="work-copy">
+        <p>{{ item.description | escape }}</p>
+        {% if item.links %}
+          <div class="inline-links">
+            {% for link in item.links %}
+              <a href="{{ link.url | escape }}"{% if link.external %} target="_blank" rel="noreferrer"{% endif %}>
+                {{ link.label | escape }}{% if link.external %} <span aria-hidden="true">↗</span>{% endif %}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

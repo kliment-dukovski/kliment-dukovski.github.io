@@ -3,8 +3,7 @@
 
   const content = window.PORTFOLIO_CONTENT || {
     articles: [],
-    books: [],
-    workHistory: []
+    books: []
   };
 
   const $ = (selector, scope = document) => scope.querySelector(selector);
@@ -107,28 +106,6 @@ function bookCard(book) {
       </div>
     </article>`;
 }
-  function workCard(item) {
-    const links = (item.links || [])
-      .map(
-        (link) =>
-          `<a href="${escapeHtml(link.url)}"${externalAttrs(link.url)}>${escapeHtml(link.label)}${/^https?:\/\//i.test(link.url) ? ' <span aria-hidden="true">↗</span>' : ""}</a>`
-      )
-      .join("");
-
-    return `
-      <article class="work-card">
-        <div class="work-period">${escapeHtml(item.period)}</div>
-        <div>
-          <h3>${escapeHtml(item.role)}</h3>
-          <div class="work-company">${escapeHtml(item.company)}</div>
-        </div>
-        <div class="work-copy">
-          <p>${escapeHtml(item.description)}</p>
-          <div class="inline-links">${links}</div>
-        </div>
-      </article>`;
-  }
-
   function renderList(selector, items, renderer) {
     const target = $(selector);
     if (!target) return;
@@ -143,8 +120,6 @@ function bookCard(book) {
 
   renderList("[data-home-books]", sortedBooks.slice(0, 2), bookCard);
   renderList("[data-all-books]", sortedBooks, bookCard);
-  renderList("[data-home-work]", content.workHistory.slice(0, 2), workCard);
-  renderList("[data-all-work]", content.workHistory, workCard);
 
   const year = $("[data-current-year]");
   if (year) year.textContent = new Date().getFullYear();

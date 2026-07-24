@@ -1,7 +1,6 @@
 ---
 title: "Work History"
 description: "Professional writing experience and selected published work by Kliment Dukovski."
-permalink: /work-history.html
 ---
 <!doctype html>
 <html lang="en">
@@ -11,7 +10,6 @@ permalink: /work-history.html
   {% include seo.html %}
   <meta name="theme-color" content="#f4f2ed">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/content.js" defer></script>
   <script src="assets/js/site.js" defer></script>
 </head>
 <body data-page="work">
@@ -46,8 +44,7 @@ permalink: /work-history.html
 
     <section class="section" aria-label="Complete work history">
       <div class="container">
-        
-        <div class="work-list" data-all-work></div>
+        {% include work-list.html %}
       </div>
     </section>
   </main>
