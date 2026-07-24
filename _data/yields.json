@@ -12,7 +12,7 @@
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-07-24T09:48:05.000+00:00"
+    "updated_at": "2026-07-24T09:51:05.000+00:00"
   },
   "juiced": {
     "apy": 5.14,
@@ -21,7 +21,7 @@
     "source": "Jupiter Earn",
     "source_url": "https://api.jup.ag/lend/v1/earn/tokens",
     "stale": false,
-    "updated_at": "2026-07-24T09:48:06.000+00:00"
+    "updated_at": "2026-07-24T09:51:06.000+00:00"
   },
   "juiced_usdt": {
     "assumed_leverage": 9,
@@ -32,7 +32,7 @@
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
     "underlying_apy": 5.14,
-    "updated_at": "2026-07-24T09:48:06.000+00:00"
+    "updated_at": "2026-07-24T09:51:06.000+00:00"
   },
   "jupiter_jlp_usdc": {
     "borrow_apy": 4.39,
@@ -40,14 +40,14 @@
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-07-24T09:48:05.000+00:00"
+    "updated_at": "2026-07-24T09:51:05.000+00:00"
   },
   "kamino_jlp_usdc": {
-    "borrow_apy": 4.71,
+    "borrow_apy": 3.93,
     "source": "Kamino JLP Market API",
     "source_url": "https://api.kamino.finance/kamino-market/DxXdAyU3kCjnyggvHmY5nAwg5cRbbmdyX3npfDMjjMek/reserves/metrics",
     "stale": false,
-    "updated_at": "2026-07-24T09:49:52Z"
+    "updated_at": "2026-07-24T09:53:48Z"
   },
   "last_changed_at": "2026-07-24",
   "native_sol_staking": {
@@ -58,7 +58,7 @@
     "source": "Solana mainnet JSON-RPC",
     "source_url": "https://solana.com/docs/rpc",
     "stale": false,
-    "updated_at": "2026-07-24T09:49:52Z"
+    "updated_at": "2026-07-24T09:53:48Z"
   },
   "stale": false
 }
