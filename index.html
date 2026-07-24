@@ -11,7 +11,6 @@ description: "Portfolio of Kliment Dukovski, a cryptocurrency and investments wr
   {% include seo.html %}
   <meta name="theme-color" content="#f4f2ed">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/content.js" defer></script>
   <script src="assets/js/site.js" defer></script>
 </head>
 <body data-page="about">
@@ -106,7 +105,7 @@ description: "Portfolio of Kliment Dukovski, a cryptocurrency and investments wr
           <p class="section-note">Latest books.</p>
         </header>
 
-        <div class="book-grid" data-home-books></div>
+        {% include book-list.html limit=2 %}
 
         <div class="section-end">
           <a class="more-link" href="fiction.html">View all books →</a>

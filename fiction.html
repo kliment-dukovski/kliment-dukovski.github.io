@@ -1,7 +1,6 @@
 ---
 title: "Fiction Hub"
 description: "Science-fiction books by Kliment Dukovski, including Titanomachia and the Flesh and Steel series."
-permalink: /fiction.html
 ---
 <!doctype html>
 <html lang="en">
@@ -11,7 +10,6 @@ permalink: /fiction.html
   {% include seo.html %}
   <meta name="theme-color" content="#f4f2ed">
   <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/content.js" defer></script>
   <script src="assets/js/site.js" defer></script>
 </head>
 <body data-page="fiction">
@@ -46,8 +44,7 @@ permalink: /fiction.html
 
     <section class="section" aria-label="All books">
       <div class="container">
-      
-        <div class="book-grid" data-all-books></div>
+        {% include book-list.html %}
       </div>
     </section>
   </main>

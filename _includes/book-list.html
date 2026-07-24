@@ -1,0 +1,74 @@
+{% assign books = site.data.books | sort: "published" | reverse %}
+{% if include.limit %}
+  {% assign books = books | slice: 0, include.limit %}
+{% endif %}
+
+<div class="book-grid">
+  {% for book in books %}
+    <article class="book-card">
+      <a
+        class="book-cover-link"
+        href="{{ book.amazon_url | escape }}"
+        target="_blank"
+        rel="noreferrer"
+        aria-label="View {{ book.title | escape }} on Amazon"
+      >
+        <img
+          class="book-cover"
+          src="{{ book.cover | relative_url }}"
+          alt="{{ book.cover_alt | escape }}"
+          loading="lazy"
+          width="420"
+          height="672"
+        >
+      </a>
+
+      <div class="book-body">
+        <div class="eyebrow-row">
+          <span>{{ book.series | escape }}</span>
+          <span>{{ book.year | escape }}</span>
+        </div>
+
+        <h3>{{ book.title | escape }}</h3>
+
+        <div
+          class="rating"
+          aria-label="{{ book.rating | escape }} out of 5 stars from {{ book.review_count | escape }} ratings"
+        >
+          <span aria-hidden="true">{{ book.stars | escape }}</span>
+          <small>{{ book.rating | escape }} · {{ book.review_count | escape }} ratings</small>
+        </div>
+
+        <p
+          class="book-description"
+          id="book-description-{{ book.slug | escape }}"
+        >
+          {{ book.description | escape }}
+        </p>
+
+        <button
+          class="book-description-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="book-description-{{ book.slug | escape }}"
+        >
+          … read more
+        </button>
+
+        <div class="card-footer">
+          <a
+            href="{{ book.amazon_url | escape }}"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Amazon <span aria-hidden="true">↗</span>
+          </a>
+
+          {% if book.details_url and book.details_url != "#" %}
+            <a href="{{ book.details_url | relative_url }}">Book details</a>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
