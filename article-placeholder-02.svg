@@ -1,0 +1,57 @@
+.article-callout {
+  margin: 2.25rem 0;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-left: 4px solid #12a594;
+  border-radius: var(--radius);
+  background: color-mix(in srgb, #12a594 7%, var(--surface));
+}
+
+.article-callout > :first-child {
+  margin-top: 0;
+}
+
+.article-callout > :last-child {
+  margin-bottom: 0;
+}
+
+.article-callout h3 {
+  margin-top: 0;
+}
+
+.article-callout .article-figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.article-formula {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.75);
+  background: var(--surface);
+  font-family: Consolas, Monaco, monospace;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.article-figure-portrait img {
+  max-width: 560px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 720px) {
+  .article-callout {
+    margin: 1.75rem 0;
+    padding: 1.1rem;
+  }
+
+  .article-callout .article-content table,
+  .article-callout table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
