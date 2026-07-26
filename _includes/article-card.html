@@ -39,6 +39,17 @@
       </p>
     {% endif %}
 
+    {% if include.post.tags and include.post.tags != empty %}
+      <div class="tag-list" aria-label="Article topics">
+        {% for tag in include.post.tags limit: 4 %}
+          <a class="tag" href="{{ '/articles/' | relative_url }}?topic={{ tag | url_encode }}">{{ tag | escape }}</a>
+        {% endfor %}
+        {% if include.post.content_type %}
+          <a class="tag tag-type" href="{{ '/articles/' | relative_url }}?type={{ include.post.content_type | url_encode }}">{{ include.post.content_type | escape }}</a>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <div class="card-footer">
       <span>
         {{ include.post.publication | default: "Kliment Dukovski" | escape }}

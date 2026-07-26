@@ -5,6 +5,8 @@ seo_title: "Optional shorter search title"
 date: YYYY-MM-DD
 last_modified_at: YYYY-MM-DD
 category: "Primary category"
+content_type: "Guide, Analysis, Tutorial, Review, or Documentation"
+featured: false
 tags:
   - Main topic
   - Supporting topic

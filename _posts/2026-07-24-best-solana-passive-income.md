@@ -3,14 +3,17 @@ layout: article
 title: "5 Best Ways to Earn Passive Income on Solana in 2026"
 seo_title: "5 Best Solana Passive Income Options in 2026"
 date: 2026-07-24
-last_modified_at: 2026-07-26
+last_modified_at: 2026-07-25
 use_yields_last_modified: true
 category: "Solana"
+content_type: "Practical Guide"
+featured: true
 tags:
   - Solana passive income
   - SOL staking
   - Liquid staking
   - JLP
+  - Jupiter
   - JUICED
   - Huma
 publication: "Kliment Dukovski"

@@ -52,7 +52,7 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
 
         <span class="identity-copy">
           <strong>Kliment Dukovski</strong>
-          <span>Writer / Novelist</span>
+          <span>Writer · Editor · Content Strategist</span>
         </span>
       </a>
 
@@ -101,6 +101,18 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
         >
           Work History
         </a>
+
+        <a href="{{ '/#contact' | relative_url }}">
+          Contact
+        </a>
+
+        <a
+          href="{{ '/assets/files/Kliment-Dukovski-Resume.pdf' | relative_url }}"
+          download
+          aria-label="Download Kliment Dukovski résumé as a PDF"
+        >
+          Résumé
+        </a>
       </nav>
     </div>
   </header>
@@ -119,8 +131,8 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
         </div>
 
         <p class="page-intro">
-          Cryptocurrency, investing, stablecoins, markets, personal finance,
-          and emerging technology. Newest articles appear first.
+          Search by title or topic, or filter the archive by subject and content type.
+          Newest articles appear first.
         </p>
 
       </div>
@@ -128,12 +140,52 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
 
     <section class="section" aria-label="All articles">
       <div class="container">
+        <div class="article-tools" data-article-tools>
+          <label class="article-search">
+            <span>Search articles</span>
+            <input type="search" data-article-search placeholder="Search by title, summary, or tag…" autocomplete="off">
+          </label>
 
-        <div class="article-grid">
+          <div class="filter-group" aria-labelledby="topic-filter-label">
+            <span id="topic-filter-label">Topics</span>
+            <div class="filter-buttons" data-topic-filters></div>
+          </div>
+
+          <div class="filter-group" aria-labelledby="type-filter-label">
+            <span id="type-filter-label">Content type</span>
+            <div class="filter-buttons" data-type-filters></div>
+          </div>
+
+          <p class="article-results" data-article-results aria-live="polite"></p>
+        </div>
+
+        <div class="article-grid" data-article-grid>
           {% for post in paginator.posts %}
             {% include article-card.html post=post %}
           {% endfor %}
         </div>
+
+        <p class="empty-state" data-article-empty hidden>No articles match those filters.</p>
+
+        <script type="application/json" id="article-index">
+          [
+            {% for post in site.posts %}
+              {
+                "title": {{ post.title | jsonify }},
+                "summary": {{ post.summary | default: post.description | jsonify }},
+                "category": {{ post.category | jsonify }},
+                "contentType": {{ post.content_type | default: "Article" | jsonify }},
+                "tags": {{ post.tags | jsonify }},
+                "date": {{ post.date | date_to_xmlschema | jsonify }},
+                "dateLabel": {{ post.date | date: "%B %-d, %Y" | jsonify }},
+                "publication": {{ post.publication | default: "Kliment Dukovski" | jsonify }},
+                "url": {{ post.url | relative_url | jsonify }},
+                "image": {{ post.image | relative_url | jsonify }},
+                "imageAlt": {{ post.image_alt | default: post.title | jsonify }}
+              }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+          ]
+        </script>
 
         {% if paginator.total_pages > 1 %}
           <nav class="pagination" aria-label="Article archive pages">
