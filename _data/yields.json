@@ -1,18 +1,18 @@
 {
   "checked_at": "2026-07-25",
   "jito_sol": {
-    "apy": 5.18,
+    "apy": 5.17,
     "source": "Jito Stake Pool API",
     "source_url": "https://kobe.mainnet.jito.network/api/v1/stake_pool_stats",
     "stale": false,
-    "updated_at": "2026-07-26T07:01:12Z"
+    "updated_at": "2026-07-27T07:31:11Z"
   },
   "jlp": {
     "apy": 5.97,
     "last_error": "The read operation timed out",
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": false,
+    "stale": true,
     "updated_at": "2026-07-25T07:27:04.000+00:00"
   },
   "juiced": {
@@ -22,7 +22,7 @@
     "rewards_apy": 1.5,
     "source": "Jupiter Earn",
     "source_url": "https://api.jup.ag/lend/v1/earn/tokens",
-    "stale": false,
+    "stale": true,
     "updated_at": "2026-07-25T07:27:05.000+00:00"
   },
   "juiced_usdt": {
@@ -33,7 +33,7 @@
     "net_apy": 10.04,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": false,
+    "stale": true,
     "underlying_apy": 5.16,
     "updated_at": "2026-07-25T07:27:05.000+00:00"
   },
@@ -43,17 +43,17 @@
     "liquidation_threshold_pct": 90.0,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": false,
+    "stale": true,
     "updated_at": "2026-07-25T07:27:04.000+00:00"
   },
   "kamino_jlp_usdc": {
-    "borrow_apy": 4.19,
+    "borrow_apy": 4.35,
     "source": "Kamino JLP Market API",
     "source_url": "https://api.kamino.finance/kamino-market/DxXdAyU3kCjnyggvHmY5nAwg5cRbbmdyX3npfDMjjMek/reserves/metrics",
     "stale": false,
-    "updated_at": "2026-07-26T07:46:30Z"
+    "updated_at": "2026-07-27T08:13:27Z"
   },
-  "last_changed_at": "2026-07-26",
+  "last_changed_at": "2026-07-27",
   "native_sol_staking": {
     "assumed_validator_commission_pct": 10,
     "gross_apy": 5.49,
@@ -62,7 +62,7 @@
     "source": "Solana mainnet JSON-RPC",
     "source_url": "https://solana.com/docs/rpc",
     "stale": false,
-    "updated_at": "2026-07-26T07:46:30Z"
+    "updated_at": "2026-07-27T08:13:27Z"
   },
-  "stale": false
+  "stale": true
 }
