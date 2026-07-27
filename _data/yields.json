@@ -1,57 +1,53 @@
 {
-  "checked_at": "2026-07-25",
+  "checked_at": "2026-07-27",
   "jito_sol": {
     "apy": 5.17,
     "source": "Jito Stake Pool API",
     "source_url": "https://kobe.mainnet.jito.network/api/v1/stake_pool_stats",
     "stale": false,
-    "updated_at": "2026-07-27T07:31:11Z"
+    "updated_at": "2026-07-27T08:41:13Z"
   },
   "jlp": {
     "apy": 5.97,
-    "last_error": "The read operation timed out",
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": true,
-    "updated_at": "2026-07-25T07:27:04.000+00:00"
+    "stale": false,
+    "updated_at": "2026-07-27T08:42:05.000+00:00"
   },
   "juiced": {
-    "apy": 5.16,
-    "base_apy": 3.66,
-    "last_error": "The read operation timed out",
+    "apy": 5.23,
+    "base_apy": 3.73,
     "rewards_apy": 1.5,
     "source": "Jupiter Earn",
     "source_url": "https://api.jup.ag/lend/v1/earn/tokens",
-    "stale": true,
-    "updated_at": "2026-07-25T07:27:05.000+00:00"
+    "stale": false,
+    "updated_at": "2026-07-27T08:42:05.000+00:00"
   },
   "juiced_usdt": {
     "assumed_leverage": 9,
-    "borrow_apy": 4.55,
-    "last_error": "The read operation timed out",
+    "borrow_apy": 4.59,
     "method": "(JUICED APY \u00d7 9) \u2212 (USDT borrow APY \u00d7 8); excludes transaction costs",
-    "net_apy": 10.04,
+    "net_apy": 10.35,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": true,
-    "underlying_apy": 5.16,
-    "updated_at": "2026-07-25T07:27:05.000+00:00"
+    "stale": false,
+    "underlying_apy": 5.23,
+    "updated_at": "2026-07-27T08:42:05.000+00:00"
   },
   "jupiter_jlp_usdc": {
-    "borrow_apy": 5.35,
-    "last_error": "The read operation timed out",
+    "borrow_apy": 5.23,
     "liquidation_threshold_pct": 90.0,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
-    "stale": true,
-    "updated_at": "2026-07-25T07:27:04.000+00:00"
+    "stale": false,
+    "updated_at": "2026-07-27T08:42:05.000+00:00"
   },
   "kamino_jlp_usdc": {
-    "borrow_apy": 4.35,
+    "borrow_apy": 4.36,
     "source": "Kamino JLP Market API",
     "source_url": "https://api.kamino.finance/kamino-market/DxXdAyU3kCjnyggvHmY5nAwg5cRbbmdyX3npfDMjjMek/reserves/metrics",
     "stale": false,
-    "updated_at": "2026-07-27T08:13:27Z"
+    "updated_at": "2026-07-27T08:44:56Z"
   },
   "last_changed_at": "2026-07-27",
   "native_sol_staking": {
@@ -62,7 +58,7 @@
     "source": "Solana mainnet JSON-RPC",
     "source_url": "https://solana.com/docs/rpc",
     "stale": false,
-    "updated_at": "2026-07-27T08:13:27Z"
+    "updated_at": "2026-07-27T08:44:56Z"
   },
-  "stale": true
+  "stale": false
 }
