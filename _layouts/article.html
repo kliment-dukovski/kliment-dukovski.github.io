@@ -149,8 +149,10 @@
           <img
             src="{{ page.image | relative_url }}"
             alt="{{ page.image_alt | default: page.title | escape }}"
-            width="1400"
-            height="875"
+            width="{{ page.image_width | default: 1400 }}"
+            height="{{ page.image_height | default: 875 }}"
+            decoding="async"
+            fetchpriority="high"
           >
 
           {% if page.image_caption %}
