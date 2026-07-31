@@ -372,7 +372,7 @@ Card Club NFTs are a premium pass to the Collector Crypt ecosystem, granting acc
 
 </aside>
 
-The bull case for CARDS is that it is the native token of a real business with growing revenue, exceeding \$70 million since its 2025 launch, according to [DefiLlama] (https://defillama.com/protocol/collector-crypt). [Pine Analytics’ first-quarter report](https://pineanalytics.substack.com/p/collector-crypt-quarterly-report) also estimated \$146.9 million in quarterly revenue and \$8.6 million in gross profit, although its methodology differs from DefiLlama’s.
+The bull case for CARDS is that it is the native token of a real business with growing revenue, exceeding \$70 million since its 2025 launch, according to [DefiLlama](https://defillama.com/protocol/collector-crypt). [Pine Analytics’ first-quarter report](https://pineanalytics.substack.com/p/collector-crypt-quarterly-report) also estimated \$146.9 million in quarterly revenue and \$8.6 million in gross profit, although its methodology differs from DefiLlama’s.
 
 <figure class="article-figure">
   <img src="{{ '/assets/images/collector-crypt-weekly-revenue-defillama.webp' | relative_url }}" alt="DefiLlama chart showing Collector Crypt weekly protocol revenue" width="2048" height="1152" loading="lazy" decoding="async">
