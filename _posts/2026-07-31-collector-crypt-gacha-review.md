@@ -247,35 +247,36 @@ All shipments are insured up to \$5,000. Shipments over \$5,000 are covered at a
 
 </aside>
 
-If you decide to keep your cards, there’s a fifth option: borrow against them on Jupiter’s Offerbook.
+If you decide to keep your cards, there’s a fourth option: borrow against them on Jupiter’s Offerbook.
 
 Here’s how it works:
 
-1.  Visit Jupiter’s Offerbook.
-
-2.  Select **My Collaterals**.
+<ol>
+  <li>Visit Jupiter’s Offerbook.</li>
+  <li>Select <strong>My Collaterals</strong>.</li>
+</ol>
 
 <figure class="article-figure article-figure-portrait">
   <img src="{{ '/assets/images/jupiter-offerbook-collateral.webp' | relative_url }}" alt="Jupiter Offerbook screen with My Collaterals selected" width="815" height="936" loading="lazy" decoding="async">
   <figcaption>Select My Collaterals in Jupiter Offerbook</figcaption>
 </figure>
 
-3.  Select **Collectibles** from the top options.
+<ol start="3">
+  <li>Select <strong>Collectibles</strong> from the top options.</li>
+</ol>
 
 <figure class="article-figure article-figure-portrait">
   <img src="{{ '/assets/images/jupiter-offerbook-collectibles.webp' | relative_url }}" alt="Jupiter Offerbook screen showing Collector Crypt under Collectibles" width="867" height="996" loading="lazy" decoding="async">
   <figcaption>Select Collector Crypt under Collectibles</figcaption>
 </figure>
 
-4.  Select **Collector Crypt.**
-
-5.  Choose the card you wish to use as a collateral.
-
-6.  Select **Ask for a Loan**.
-
-7.  Fill out the details, such as APR, loan term, and the amount you’re requesting.
-
-8.  Wait for lenders to accept your offer.
+<ol start="4">
+  <li>Select <strong>Collector Crypt.</strong></li>
+  <li>Choose the card you wish to use as a collateral.</li>
+  <li>Select <strong>Ask for a Loan</strong>.</li>
+  <li>Fill out the details, such as APR, loan term, and the amount you’re requesting.</li>
+  <li>Wait for lenders to accept your offer.</li>
+</ol>
 
 ## Is Collector Crypt fair?
 
@@ -339,7 +340,7 @@ Another revenue source for the company is fees collected when cards are traded t
 
 Collector Crypt launched its native token, CARDS, in August 2025, with a total supply of 2 billion. Reported circulating supply differed across trackers on July 31, 2026: [DefiLlama displayed approximately 257.55 million](https://defillama.com/protocol/collector-crypt), while [Binance displayed approximately 415.9 million](https://www.binance.com/en/price/collector-crypt).
 
-The token's primary utility is earning gacha points each month based on how many CARDS tokens you hold in your wallet. The current rate is 0.4 points per CARDS token. These points can be used to open packs on the Collector Crypt platform, according to [Collector Crypt’s token documentation](https://docs.collectorcrypt.com/cards-token).
+The token's primary utility is earning gacha points each month based on how many CARDS tokens you hold in your wallet. The current rate is 0.4 points per CARDS token. These points can be used to open packs on the Collector Crypt platform, according to [Collector Crypt’s Discord information](https://discord.com/invite/CollectorCrypt).
 
 | Pack            | Points required | CARDS required to earn that many points each month |
 |-----------------|-----------------|----------------------------------------------------|
@@ -371,14 +372,14 @@ Card Club NFTs are a premium pass to the Collector Crypt ecosystem, granting acc
 
 </aside>
 
-The bull case for CARDS is that it is the native token of a real business with growing revenue, exceeding \$70 million since its 2025 launch. [Pine Analytics’ first-quarter report](https://pineanalytics.substack.com/p/collector-crypt-quarterly-report) also estimated \$146.9 million in quarterly revenue and \$8.6 million in gross profit, although its methodology differs from DefiLlama’s.
+The bull case for CARDS is that it is the native token of a real business with growing revenue, exceeding \$70 million since its 2025 launch, according to [DefiLlama] (https://defillama.com/protocol/collector-crypt). [Pine Analytics’ first-quarter report](https://pineanalytics.substack.com/p/collector-crypt-quarterly-report) also estimated \$146.9 million in quarterly revenue and \$8.6 million in gross profit, although its methodology differs from DefiLlama’s.
 
 <figure class="article-figure">
   <img src="{{ '/assets/images/collector-crypt-weekly-revenue-defillama.webp' | relative_url }}" alt="DefiLlama chart showing Collector Crypt weekly protocol revenue" width="2048" height="1152" loading="lazy" decoding="async">
   <figcaption>Collector Crypt weekly protocol revenue | DefiLlama</figcaption>
 </figure>
 
-Despite Collector Crypt’s success as a business, there is no guarantee that this success will translate into value for the CARDS token. An [updated Four Pillars investigation](https://research.4pillars.io/en/research/collcector-crypt-has-one-question-left) reached a similar conclusion: the business appears substantial, but the mechanism transferring foundation value to CARDS holders remains unclear. As a result, investing in CARDS offers speculative exposure to Collector Crypt’s ecosystem, but holding the token isn’t company equity and doesn’t provide a guaranteed claim on the platform’s revenue or profit.
+Despite Collector Crypt’s success as a business, there is no guarantee that this success will translate into value for the CARDS token. A [Four Pillars investigation](https://research.4pillars.io/en/research/collcector-crypt-has-one-question-left) reached a similar conclusion: the business appears substantial, but the mechanism transferring foundation value to CARDS holders remains unclear. As a result, investing in CARDS offers speculative exposure to Collector Crypt’s ecosystem, but holding the token isn’t company equity and doesn’t provide a guaranteed claim on the platform’s revenue or profit.
 
 <aside class="article-callout article-callout--important" aria-label="Important" markdown="1">
 
