@@ -247,7 +247,7 @@ All shipments are insured up to \$5,000. Shipments over \$5,000 are covered at a
 
 </aside>
 
-If you decide to keep your cards, there’s a fourth option: borrow against them on Jupiter’s Offerbook.
+If you decide to keep your cards, there’s a bonus option: borrow against them on Jupiter’s Offerbook.
 
 Here’s how it works:
 
