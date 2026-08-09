@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-08-08",
+  "checked_at": "2026-08-09",
   "jito_sol": {
-    "apy": 5.04,
+    "apy": 5.03,
     "source": "Jito Stake Pool API",
     "source_url": "https://kobe.mainnet.jito.network/api/v1/stake_pool_stats",
     "stale": false,
-    "updated_at": "2026-08-08T04:47:16Z"
+    "updated_at": "2026-08-09T05:35:02Z"
   },
   "jlp": {
     "apy": 6.17,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-08-08T05:57:05.000+00:00"
+    "updated_at": "2026-08-09T05:57:04.000+00:00"
   },
   "juiced": {
     "apy": 4.73,
@@ -21,35 +21,35 @@
     "source": "Jupiter Earn",
     "source_url": "https://api.jup.ag/lend/v1/earn/tokens",
     "stale": false,
-    "updated_at": "2026-08-08T05:57:05.000+00:00"
+    "updated_at": "2026-08-09T05:57:05.000+00:00"
   },
   "juiced_usdt": {
     "assumed_leverage": 9,
-    "borrow_apy": 4.51,
+    "borrow_apy": 4.49,
     "method": "(JUICED APY \u00d7 9) \u2212 (USDT borrow APY \u00d7 8); excludes transaction costs",
-    "net_apy": 6.49,
+    "net_apy": 6.65,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
     "underlying_apy": 4.73,
-    "updated_at": "2026-08-08T05:57:05.000+00:00"
+    "updated_at": "2026-08-09T05:57:05.000+00:00"
   },
   "jupiter_jlp_usdc": {
-    "borrow_apy": 5.65,
+    "borrow_apy": 6.11,
     "liquidation_threshold_pct": 90.0,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-08-08T05:57:05.000+00:00"
+    "updated_at": "2026-08-09T05:57:04.000+00:00"
   },
   "kamino_jlp_usdc": {
-    "borrow_apy": 5.12,
+    "borrow_apy": 7.66,
     "source": "Kamino JLP Market API",
     "source_url": "https://api.kamino.finance/kamino-market/DxXdAyU3kCjnyggvHmY5nAwg5cRbbmdyX3npfDMjjMek/reserves/metrics",
     "stale": false,
-    "updated_at": "2026-08-08T05:58:02Z"
+    "updated_at": "2026-08-09T05:59:00Z"
   },
-  "last_changed_at": "2026-08-08",
+  "last_changed_at": "2026-08-09",
   "native_sol_staking": {
     "assumed_validator_commission_pct": 10,
     "gross_apy": 5.39,
@@ -58,7 +58,7 @@
     "source": "Solana mainnet JSON-RPC",
     "source_url": "https://solana.com/docs/rpc",
     "stale": false,
-    "updated_at": "2026-08-08T05:58:02Z"
+    "updated_at": "2026-08-09T05:59:00Z"
   },
   "stale": false
 }
