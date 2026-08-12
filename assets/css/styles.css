@@ -1291,6 +1291,11 @@ body[data-page="work"] main > .section {
   max-width: 42rem;
 }
 
+.hero-title-second-line {
+  display: block;
+  margin-top: 6px;
+}
+
 .author-box .text-link {
   display: inline-block;
   margin-top: 0.25rem;
