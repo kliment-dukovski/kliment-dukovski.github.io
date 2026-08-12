@@ -2,9 +2,9 @@
 
 A minimalist personal portfolio for my work as a cryptocurrency, investing, and personal-finance writer, as well as a science-fiction novelist.
 
-## Live website
+## Live websites
 
-[klimentdukovski.com](http://klimentdukovski.com/)
+[klimentdukovski.com](http://klimentdukovski.com/)<br>
 [kliment-dukovski.github.io](https://kliment-dukovski.github.io)
 
 ## About the site
