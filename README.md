@@ -4,6 +4,7 @@ A minimalist personal portfolio for my work as a cryptocurrency, investing, and 
 
 ## Live website
 
+[klimentdukovski.com](http://klimentdukovski.com/)
 [kliment-dukovski.github.io](https://kliment-dukovski.github.io)
 
 ## About the site
