@@ -1,6 +1,6 @@
 title: "Kliment Dukovski"
 description: "Cryptocurrency, investing, finance, and technical writing by Kliment Dukovski."
-url: "https://kliment-dukovski.github.io"
+url: "https://klimentdukovski.com"
 baseurl: ""
 social_image: "/assets/images/profile.png"
 
@@ -8,7 +8,7 @@ permalink: /articles/:slug/
 
 author:
   name: "Kliment Dukovski"
-  url: "https://kliment-dukovski.github.io/"
+  url: "https://klimentdukovski.com"
   image: "/assets/images/profile.png"
   job_title: "Cryptocurrency and Investments Writer"
   description: "Cryptocurrency and investments writer with more than 11 years of experience."
