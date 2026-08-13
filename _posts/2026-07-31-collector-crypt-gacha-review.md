@@ -27,7 +27,7 @@ about:
   - "@type": "Organization"
     name: "Collector Crypt"
     url: "https://collectorcrypt.com/"
-  - "@type": "Product"
+  - "@type": "Thing"
     name: "Jupiter Gacha"
     url: "https://jup.ag/gacha/packs/pokemon_50"
 mentions:
