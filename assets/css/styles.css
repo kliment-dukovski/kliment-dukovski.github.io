@@ -600,11 +600,11 @@ main { overflow: clip; }
   .site-nav a {
     padding: 17px 0;
     border-bottom: 1px solid var(--line);
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.55rem;
-    font-weight: 400;
-    letter-spacing: -.02em;
-    text-transform: none;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
   }
   .book-card { grid-template-columns: 135px minmax(0, 1fr); }
   .book-cover { min-height: 100%; }
