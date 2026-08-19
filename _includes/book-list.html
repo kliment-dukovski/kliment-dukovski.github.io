@@ -31,13 +31,19 @@
 
         <h3>{{ book.title | escape }}</h3>
 
-        <div
-          class="rating"
-          aria-label="{{ book.rating | escape }} out of 5 stars from {{ book.review_count | escape }} ratings"
-        >
-          <span aria-hidden="true">{{ book.stars | escape }}</span>
-          <small>{{ book.rating | escape }} · {{ book.review_count | escape }} ratings</small>
-        </div>
+        {% if book.rating and book.review_count %}
+          <div
+            class="rating"
+            aria-label="{{ book.rating | escape }} out of 5 stars from {{ book.review_count | escape }} ratings"
+          >
+            <span aria-hidden="true">{{ book.stars | escape }}</span>
+            <small>{{ book.rating | escape }} · {{ book.review_count | escape }} ratings</small>
+          </div>
+        {% else %}
+          <div class="rating new-release" aria-label="New release">
+            <span>New release</span>
+          </div>
+        {% endif %}
 
         <p
           class="book-description"
