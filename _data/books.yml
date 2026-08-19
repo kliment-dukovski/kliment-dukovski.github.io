@@ -1,3 +1,35 @@
+- title: "Mirror Moon"
+  slug: "mirror-moon"
+  series: "Titanomachia · Book One"
+  year: "2026"
+  published: "2026-08-19"
+  description: >-
+    Harris Ultor, a former general in the Liberation War, and his eleven-year-old
+    daughter, Terra, have fled to a distant world where he can earn enough as a
+    gold miner to pay for Terra’s medical procedure. After an accident at the
+    mining site leaves him in debt, Harris receives a lucrative offer just as a
+    massive hacking operation threatens planet Olimpia and all of humanity.
+    Meanwhile, Captain Talia Daggett’s mysterious cargo may be connected to the
+    unfolding crisis—and to something far more dangerous.
+  amazon_url: "https://www.amazon.com/dp/B0HFPXQTRP"
+  cover: "/assets/images/mirror-moon.webp"
+  cover_alt: "Mirror Moon, Titanomachia Book One"
+
+- title: "Machinations of Fate"
+  slug: "machinations-of-fate"
+  series: "Titanomachia · Novelette"
+  year: "2026"
+  published: "2026-08-18"
+  description: >-
+    Captain Talia Daggett has been blacklisted throughout the Helion Star System.
+    Desperate for a second chance, she accepts a job transporting mysterious
+    cargo for Arach Prime Lending. But the vessel assigned to her is a warship,
+    not a freighter, and the mission soon draws Talia and the Wings of Athena
+    into the opening moves of a conflict that could reshape the entire system.
+  amazon_url: "https://www.amazon.com/dp/B0HFP2WCBJ"
+  cover: "/assets/images/machinations-of-fate.webp"
+  cover_alt: "Machinations of Fate, a Titanomachia novelette"
+
 - title: "Ancient Legacy"
   slug: "ancient-legacy"
   series: "Flesh and Steel · Book Three"
