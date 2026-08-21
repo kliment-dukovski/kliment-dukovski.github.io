@@ -14,4 +14,11 @@ navigation?.querySelectorAll('a').forEach((link) => {
   });
 });
 
+const promoBanner = document.querySelector('[data-promo-end]');
+const promoEnd = Date.parse(promoBanner?.dataset.promoEnd ?? '');
+
+if (promoBanner && !Number.isNaN(promoEnd) && Date.now() >= promoEnd) {
+  promoBanner.remove();
+}
+
 document.querySelector('#year').textContent = new Date().getFullYear();
