@@ -249,6 +249,29 @@ main { overflow: clip; }
 .button.secondary { background: transparent; color: var(--accent); }
 .button.secondary:hover { background: var(--accent); color: #ffffff; }
 
+.fiction-world-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+  padding: 24px 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.fiction-world-cta > div { display: grid; gap: 7px; }
+.fiction-world-cta .section-label { margin: 0; }
+.fiction-world-cta strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.55rem;
+  font-weight: 400;
+  letter-spacing: -.025em;
+}
+.fiction-world-cta p { margin: 0; color: var(--muted); font-size: .9rem; }
+.fiction-world-cta .button { flex: 0 0 auto; }
+
 .facts {
   margin: 0;
   border-top: 1px solid var(--line-strong);
@@ -623,6 +646,8 @@ main { overflow: clip; }
 @media (max-width: 560px) {
   .identity-copy span { display: none; }
   .hero h1 { font-size: clamp(2rem, 10vw, 3.2rem); }
+  .fiction-world-cta { align-items: stretch; flex-direction: column; gap: 20px; padding: 22px; }
+  .fiction-world-cta .button { width: 100%; }
   .book-card { grid-template-columns: 1fr; }
   .book-cover { height: auto; max-height: 520px; object-fit: contain; padding: 20px; }
   .work-card { grid-template-columns: 1fr; gap: 8px; }
