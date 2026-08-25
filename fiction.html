@@ -10,7 +10,7 @@ permalink: /fiction.html
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include seo.html %}
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="assets/css/styles.css?v=20260826">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260826-2">
   <script src="assets/js/site.js" defer></script>
 </head>
 <body data-page="fiction">
@@ -47,15 +47,7 @@ permalink: /fiction.html
 
     <section class="section" aria-label="All books">
       <div class="container">
-        <div class="fiction-world-cta">
-          <div>
-            <span class="section-label">World archive</span>
-            <strong>Enter Titanomachia</strong>
-            <p>Discover the history, worlds, and wars that lead into <em>Mirror Moon</em>.</p>
-          </div>
-          <a class="button" href="titanomachia.html">Dive deeper <span aria-hidden="true">→</span></a>
-        </div>
-        {% include book-list.html %}
+        {% include book-list.html show_world_cta=true %}
       </div>
     </section>
   </main>
