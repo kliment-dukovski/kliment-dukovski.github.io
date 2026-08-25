@@ -76,5 +76,16 @@
         </div>
       </div>
     </article>
+
+    {% if include.show_world_cta and forloop.index == 2 %}
+      <aside class="fiction-world-cta" aria-label="Explore the Titanomachia world">
+        <div>
+          <span class="section-label">World archive</span>
+          <strong>Enter Titanomachia</strong>
+          <p>Discover the history, worlds, and wars that lead into <em>Mirror Moon</em>.</p>
+        </div>
+        <a class="button" href="titanomachia.html">Dive deeper <span aria-hidden="true">→</span></a>
+      </aside>
+    {% endif %}
   {% endfor %}
 </div>
