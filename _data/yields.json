@@ -1,64 +1,64 @@
 {
-  "checked_at": "2026-08-25",
+  "checked_at": "2026-08-26",
   "jito_sol": {
     "apy": 4.77,
     "source": "Jito Stake Pool API",
     "source_url": "https://kobe.mainnet.jito.network/api/v1/stake_pool_stats",
     "stale": false,
-    "updated_at": "2026-08-25T05:46:24Z"
+    "updated_at": "2026-08-26T05:06:27Z"
   },
   "jlp": {
     "apy": 12.42,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-08-25T05:48:10.000+00:00"
+    "updated_at": "2026-08-26T05:51:12.000+00:00"
   },
   "juiced": {
-    "apy": 5.76,
-    "base_apy": 4.77,
-    "rewards_apy": 0.99,
+    "apy": 5.43,
+    "base_apy": 4.43,
+    "rewards_apy": 1.0,
     "source": "Jupiter Earn",
     "source_url": "https://api.jup.ag/lend/v1/earn/tokens",
     "stale": false,
-    "updated_at": "2026-08-25T05:48:11.000+00:00"
+    "updated_at": "2026-08-26T05:51:14.000+00:00"
   },
   "juiced_usdt": {
     "assumed_leverage": 9,
-    "borrow_apy": 4.7,
+    "borrow_apy": 5.48,
     "method": "(JUICED APY \u00d7 9) \u2212 (USDT borrow APY \u00d7 8); excludes transaction costs",
-    "net_apy": 14.24,
+    "net_apy": 5.03,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "underlying_apy": 5.76,
-    "updated_at": "2026-08-25T05:48:11.000+00:00"
+    "underlying_apy": 5.43,
+    "updated_at": "2026-08-26T05:51:14.000+00:00"
   },
   "jupiter_jlp_usdc": {
-    "borrow_apy": 5.66,
+    "borrow_apy": 5.84,
     "liquidation_threshold_pct": 90.0,
     "source": "Jupiter Lend",
     "source_url": "https://api.jup.ag/lend/v1/borrow/vaults",
     "stale": false,
-    "updated_at": "2026-08-25T05:48:10.000+00:00"
+    "updated_at": "2026-08-26T05:51:12.000+00:00"
   },
   "kamino_jlp_usdc": {
-    "borrow_apy": 7.43,
+    "borrow_apy": 5.17,
     "source": "Kamino JLP Market API",
     "source_url": "https://api.kamino.finance/kamino-market/DxXdAyU3kCjnyggvHmY5nAwg5cRbbmdyX3npfDMjjMek/reserves/metrics",
     "stale": false,
-    "updated_at": "2026-08-25T05:48:53Z"
+    "updated_at": "2026-08-26T05:51:12Z"
   },
-  "last_changed_at": "2026-08-25",
+  "last_changed_at": "2026-08-26",
   "native_sol_staking": {
     "assumed_validator_commission_pct": 10,
-    "gross_apy": 5.35,
+    "gross_apy": 5.36,
     "method": "Estimated from validator inflation, total SOL supply, and active delegated stake",
     "net_10pct_apy": 4.82,
     "source": "Solana mainnet JSON-RPC",
     "source_url": "https://solana.com/docs/rpc",
     "stale": false,
-    "updated_at": "2026-08-25T05:48:53Z"
+    "updated_at": "2026-08-26T05:51:12Z"
   },
   "stale": false
 }
