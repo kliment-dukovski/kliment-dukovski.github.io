@@ -7,6 +7,22 @@
   background: color-mix(in srgb, #12a594 7%, var(--surface));
 }
 
+.article-callout--case-study {
+  border-color: color-mix(in srgb, #6366f1 35%, var(--line));
+  border-left-color: #6366f1;
+  background: color-mix(in srgb, #6366f1 9%, var(--surface));
+}
+
+.article-callout--case-study::before {
+  content: "FIRST-HAND TEST";
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #6366f1;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
 .article-callout > :first-child {
   margin-top: 0;
 }
