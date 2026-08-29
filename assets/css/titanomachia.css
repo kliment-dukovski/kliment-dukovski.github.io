@@ -40,7 +40,7 @@ h1 { font-size: clamp(66px, 10vw, 160px); line-height: .86; letter-spacing: -.06
 .hero-actions { display: flex; justify-content: center; gap: 18px; margin-top: 36px; }
 .button { display: inline-flex; align-items: center; justify-content: space-between; min-height: 50px; padding: 0 25px; gap: 34px; border: 1px solid var(--blue); font-size: 9px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; transition: transform .2s, background .2s; }
 .button:hover, .button:focus-visible { transform: translateY(-2px); }
-.button.primary { color: white; background: var(--blue); box-shadow: 0 11px 30px rgba(11,85,232,.14); }
+.button.primary { color: white; background: var(--blue); box-shadow: none; }
 .button.secondary { background: rgba(255,255,255,.025); border-color: rgba(255,255,255,.3); }
 .hero-index { position: absolute; bottom: 28px; left: 7%; right: 7%; display: flex; justify-content: space-between; color: rgba(255,255,255,.45); font: 8px ui-monospace, monospace; letter-spacing: .18em; }
 .hero-orbit { position: absolute; right: -8vw; top: 50%; width: min(47vw, 700px); aspect-ratio: 1; translate: 0 -50%; border: 1px solid rgba(74,131,255,.16); border-radius: 50%; }
