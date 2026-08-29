@@ -64,11 +64,13 @@ faq:
     answer: "No, CARDS is the native token of Collector Crypt and provides certain ecosystem benefits, but it doesn’t represent equity in the Collector Crypt company."
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}?v=2">
 
 Collector Crypt is the latest craze in the NFT space, but is it worth it? At first glance, the Collector Crypt gacha appears to have a positive expected value, especially as advertised on the site. However, independent on-chain analyses found that most wallets did not finish ahead in realized cash, despite the platform generating substantial revenue.
 
 This Collector Crypt review explains how the gacha packs work, what “positive EV” actually measures, how much spending has been returned through instant buybacks, and whether the platform’s growth strengthens the investment case for CARDS. It also includes my first-hand Jupiter Gacha test, in which I spent \$225 across nine \$25 packs and received \$203.15 through instant buybacks.
+
+**Updated August 29, 2026:** This review now includes my first-hand results from opening nine \$25 Jupiter Gacha packs and accepting the instant buyback for every pull.
 
 ## Quick verdict: Are Collector Crypt packs worth it?
 
@@ -84,7 +86,7 @@ The advertised EV is typically based on insured card values, while instant buyba
 | Only 22% of analyzed wallets finished ahead in cash                 | Most wallets did not realize a cash profit during Bitquery’s study period   |
 | The median wallet result was approximately −\$50                    | A few larger winners raised the average above the typical outcome           |
 | 714 wallets generated roughly 88% of analyzed spending              | Collector Crypt’s activity is heavily concentrated among high-volume users  |
-| My nine-pack Jupiter Gacha test returned 90.29% through buybacks     | I spent \$225 and received \$203.15; this is a small first-hand sample       |
+| My nine-pack Jupiter Gacha test returned 90.29% through buybacks     | I spent \$225 and received \$203.15, this is a small first-hand sample       |
 | CARDS is not equity in Collector Crypt                              | Token holders do not automatically receive the company’s revenue or profits |
 
 Buyback RTP (Return to Player) excludes cards that users kept, redeemed, or sold elsewhere. Figures also vary by source because each analysis covers a different period and dataset. Sources and methodologies are detailed below.
@@ -187,9 +189,30 @@ While at first glance it seems every pack is worth more than it costs, on-chain 
 
 \* Retained cards by users are excluded from realized-cash calculations.
 
+### Did most wallets make money?
+
+Approximately 22% of the analyzed wallets received more cash than they spent, according to [Bitquery’s realized-cash analysis](https://bitquery.io/investigations/collector-crypt-jupiter-gacha), while the median wallet result was approximately –\$50.
+
+<figure class="article-figure">
+  <img src="{{ '/assets/images/collector-crypt-wallet-results-bitquery.webp' | relative_url }}" alt="Bitquery chart showing realized profit and loss across 17,544 Collector Crypt wallets" width="1347" height="900" loading="lazy" decoding="async">
+  <figcaption>Realized profit and loss across 17,544 analyzed wallets | Bitquery</figcaption>
+</figure>
+
+Probably the most discouraging finding was that those who spent more had the worst pulls. 714 wallets spent over \$100,000 on pack openings, with an average loss of \$41,302 per wallet. These are the biggest spenders, accounting for \$550 million of all packs opened.
+
+Those who spent under \$50 on one or two tries got better results 29% of the time and almost broke even on average.
+
+Although the original appeal and the advertisement evoke card-collecting nostalgia, Bitquery’s analysis showed that 68% of all pulls were instantly sold to Collector Crypt’s buyback mechanism, revealing that profit-seeking is the prevailing goal.
+
+This means the headline gacha volume is not fresh capital but rather *recycled* cash from users who instantly sell their cards and use the proceeds to open another pack. In the end, the results are clear: one in every five players got more money than they spent.
+
+One of the best takes in this analysis is that “the jackpots are real and visible and the losses are quiet and private”.
+
+<section class="article-callout article-callout--case-study" aria-label="First-hand Jupiter Gacha test" markdown="1">
+
 ### My Jupiter Gacha results: nine \$25 packs
 
-To compare insured value with an immediately realizable cash return, I opened nine \$25 Jupiter Gacha packs in August 2026 and accepted the instant USDC buyback for every pull. This was a small first-hand test rather than a simulation: I purchased and opened all nine packs, then sold every pulled card back.
+To compare insured value with an immediately realizable cash return, I opened nine \$25 Jupiter Gacha packs in August 2026 and accepted the instant USDC buyback for every pull. This was a small first-hand test: I purchased and opened all nine packs, then sold every pulled card back.
 
 | Metric                                                   | Result          |
 |----------------------------------------------------------|-----------------|
@@ -217,24 +240,7 @@ This test does not establish Jupiter Gacha’s long-term expected return, valida
 
 **Methodology:** I recorded the \$25 pack price and cross-checked the USDC buyback receipts against the corresponding Solana transactions. All nine cards were sold back; none were retained, shipped, or listed on the marketplace. Wallet addresses, transaction identifiers, individual receipts, and exact timestamps have been withheld to avoid publicly linking a personal wallet to my identity.
 
-### Did most wallets make money?
-
-Approximately 22% of the analyzed wallets received more cash than they spent, according to [Bitquery’s realized-cash analysis](https://bitquery.io/investigations/collector-crypt-jupiter-gacha), while the median wallet result was approximately –\$50.
-
-<figure class="article-figure">
-  <img src="{{ '/assets/images/collector-crypt-wallet-results-bitquery.webp' | relative_url }}" alt="Bitquery chart showing realized profit and loss across 17,544 Collector Crypt wallets" width="1347" height="900" loading="lazy" decoding="async">
-  <figcaption>Realized profit and loss across 17,544 analyzed wallets | Bitquery</figcaption>
-</figure>
-
-Probably the most discouraging finding was that those who spent more had the worst pulls. 714 wallets spent over \$100,000 on pack openings, with an average loss of \$41,302 per wallet. These are the biggest spenders, accounting for \$550 million of all packs opened.
-
-Those who spent under \$50 on one or two tries got better results 29% of the time and almost broke even on average.
-
-Although the original appeal and the advertisement evoke card-collecting nostalgia, Bitquery’s analysis showed that 68% of all pulls were instantly sold to Collector Crypt’s buyback mechanism, revealing that profit-seeking is the prevailing goal.
-
-This means the headline gacha volume is not fresh capital but rather *recycled* cash from users who instantly sell their cards and use the proceeds to open another pack. In the end, the results are clear: one in every five players got more money than they spent.
-
-One of the best takes in this analysis is that “the jackpots are real and visible and the losses are quiet and private”.
+</section>
 
 ## What can you do with a Collector Crypt card?
 
