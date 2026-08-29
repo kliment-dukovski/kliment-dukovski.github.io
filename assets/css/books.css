@@ -129,6 +129,7 @@ h1 { margin-bottom: 26px; color: var(--ink); font-size: clamp(62px, 7vw, 108px);
 .series-world-note { max-width: 980px; }
 .series-world-note em, .series-intro em { color: var(--ink); }
 .world-link { display: inline-block; margin-left: 18px; color: var(--blue); font-size: 9px; font-style: normal; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; white-space: nowrap; }
+.titan-world-link { display: block; width: fit-content; margin: 26px 0 0; }
 .world-link.unavailable { color: var(--ink-soft); opacity: .78; }
 .flesh-section { border-top: 1px solid var(--line); background: var(--background-soft); }
 
