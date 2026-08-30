@@ -25,7 +25,22 @@ nav a::after { content: ''; position: absolute; left: 0; right: 100%; bottom: -8
 nav a:hover::after, nav a:focus-visible::after { right: 0; }
 .back-link { color: #79a5ff; }
 
-.world-hero { position: relative; min-height: calc(100vh - 68px); display: grid; place-items: center; overflow: hidden; isolation: isolate; border-bottom: 1px solid var(--line); background: radial-gradient(circle at 76% 35%, rgba(21,91,232,.24), transparent 25%), linear-gradient(120deg, #171a20 5%, #1d2639 67%, #0b347e 150%); }
+.world-hero {
+  position: relative;
+  min-height: calc(100vh - 68px);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  isolation: isolate;
+  border-bottom: 1px solid var(--line);
+  background:
+    linear-gradient(
+      rgba(12, 17, 27, .68),
+      rgba(12, 17, 27, .82)
+    ),
+    url("../images/titanomachia/titanomachia-hero-desktop.webp")
+      center center / cover no-repeat;
+}
 .world-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, transparent 0 7%, rgba(255,255,255,.045) 7% 7.08%, transparent 7.08% 93%, rgba(255,255,255,.045) 93% 93.08%, transparent 93.08%); }
 .hero-copy { position: relative; z-index: 2; width: min(86%, 1080px); text-align: center; }
 .eyebrow { display: flex; align-items: center; gap: 18px; margin: 0 0 22px; color: var(--blue-bright); font-size: 10px; font-weight: 700; letter-spacing: .24em; text-transform: uppercase; }
@@ -145,6 +160,15 @@ footer { display: flex; align-items: center; justify-content: space-between; min
 footer a { color: #79a5ff; }
 
 @media (max-width: 850px) {
+  .world-hero {
+  background:
+    linear-gradient(
+      rgba(12, 17, 27, .68),
+      rgba(12, 17, 27, .84)
+    ),
+    url("../images/titanomachia/titanomachia-hero-mobile.webp")
+      center center / cover no-repeat;
+}
   .site-header { padding: 0 22px; }
   nav a:not(.back-link) { display: none; }
   .history-shell { grid-template-columns: 1fr; }
