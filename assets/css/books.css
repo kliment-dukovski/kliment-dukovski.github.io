@@ -82,15 +82,15 @@ nav a:hover::after, nav a:focus-visible::after { right: 0; }
   background:
     linear-gradient(
       90deg,
-      rgba(10, 16, 27, 0.70),
-      rgba(10, 18, 31, 0.56) 48%,
-      rgba(12, 31, 63, 0.65)
+      rgba(10, 16, 27, 0.48),
+      rgba(10, 18, 31, 0.36) 48%,
+      rgba(12, 31, 63, 0.45)
     ),
     linear-gradient(
       180deg,
-      rgba(6, 11, 19, 0.28),
-      rgba(9, 16, 28, 0.20) 52%,
-      rgba(10, 17, 29, 0.86)
+      rgba(6, 11, 19, 0.16),
+      rgba(9, 16, 28, 0.10) 52%,
+      rgba(10, 17, 29, 0.62)
     );
 }
 .hero-copy { width: min(86%, 950px); margin: 0 auto; padding-top: 118px; text-align: center; }
@@ -228,9 +228,9 @@ footer a { color: #79a5ff; }
   background:
     linear-gradient(
       180deg,
-      rgba(7, 13, 24, 0.54),
-      rgba(7, 13, 24, 0.62) 55%,
-      rgba(6, 12, 22, 0.82)
+      rgba(7, 13, 24, 0.38),
+      rgba(7, 13, 24, 0.46) 55%,
+      rgba(6, 12, 22, 0.64)
     );
 }
   .hero-copy { width: auto; margin: 0 7%; padding-top: 120px; }
