@@ -10,8 +10,8 @@ description: "Portfolio of Kliment Dukovski, a cryptocurrency and investments wr
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% include seo.html %}
   <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/site.js" defer></script>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.github.build_revision }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.github.build_revision }}" defer></script>
 </head>
 <body data-page="about">
   <a class="skip-link" href="#main-content">Skip to content</a>
