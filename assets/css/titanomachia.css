@@ -197,7 +197,8 @@ footer a { color: #79a5ff; }
   .section-heading { display: block; margin-bottom: 46px; }
   .section-heading h2 { font-size: 48px; }
   .section-heading > p { width: auto; margin-top: 24px; }
-  .book-entry { grid-template-columns: 1fr 1.18fr; gap: 24px; padding: 22px; }
+  .book-entry {grid-template-columns: minmax(0, 1fr) minmax(0, 1.18fr); gap: 24px; padding: 22px;}
+  .book-copy {min-width: 0;}
   .book-copy h3 { margin: 17px 0; font-size: 28px; }
   .book-copy p { display: none; }
   .future-line { gap: 12px; }
