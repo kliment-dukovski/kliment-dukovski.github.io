@@ -1,3 +1,5 @@
+---
+---
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,8 +13,8 @@
   <link rel="canonical" href="https://klimentdukovski.com/books.html">
   <link rel="icon" href="favicon.ico">
   <title>Books | Kliment Dukovski</title>
-  <link rel="stylesheet" href="assets/css/books.css?v=4">
-  <script src="assets/js/books.js" defer></script>
+  <link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}?v={{ site.github.build_revision }}">
+  <script src="{{ '/assets/js/books.js' | relative_url }}?v={{ site.github.build_revision }}" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
