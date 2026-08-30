@@ -419,6 +419,23 @@ permalink: /titanomachia.html
         <span>© 2026 Kliment Dukovski</span>
         <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
       </footer>
+  <script>
+  function trackMachinationsDownload(buttonId, fileFormat) {
+    const button = document.getElementById(buttonId);
+
+    if (!button) return;
+
+    button.addEventListener('click', function () {
+      gtag('event', 'machinations_download', {
+        book_title: 'Machinations of Fate',
+        file_format: fileFormat
+      });
+    });
+  }
+
+  trackMachinationsDownload('download-machinations-epub', 'epub');
+  trackMachinationsDownload('download-machinations-pdf', 'pdf');
+</script>
     <script
   type="module"
   src="https://static.cloudflareinsights.com/beacon.min.js"
