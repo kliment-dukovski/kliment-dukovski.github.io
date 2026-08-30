@@ -181,7 +181,12 @@ footer a { color: #79a5ff; }
 
 @media (max-width: 620px) {
   .wordmark { font-size: 13px; }
-  .world-hero { min-height: 0; padding: 48px 22px 66px; place-items: start center; }
+  .world-hero {
+  min-height: calc(100vh - 68px);
+  min-height: calc(100svh - 68px);
+  padding: 48px 22px 66px;
+  place-items: center;
+}
   .hero-copy { width: 100%; max-width: 100%; }
   .hero-copy .eyebrow { margin-bottom: 15px; }
   h1 { font-size: clamp(36px, 11.2vw, 48px); letter-spacing: -.055em; white-space: nowrap; }
