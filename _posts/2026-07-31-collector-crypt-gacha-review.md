@@ -64,7 +64,7 @@ faq:
     answer: "No, CARDS is the native token of Collector Crypt and provides certain ecosystem benefits, but it doesn’t represent equity in the Collector Crypt company."
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}?v=2">
+<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}?v={{ site.github.build_revision }}">
 
 Collector Crypt is the latest craze in the NFT space, but is it worth it? At first glance, the Collector Crypt gacha appears to have a positive expected value, especially as advertised on the site. However, independent on-chain analyses found that most wallets did not finish ahead in realized cash, despite the platform generating substantial revenue.
 
