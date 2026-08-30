@@ -407,13 +407,15 @@ footer a { color: #79a5ff; }
   }
 
   .free-prequel-copy {
-    padding-top: 5px;
-  }
+  min-width: 0;
+  padding-top: 5px;
+}
 
   .free-prequel-copy h3 {
-    margin: 16px 0;
-    font-size: 28px;
-  }
+  margin: 16px 0;
+  font-size: clamp(23px, 6.4vw, 28px);
+  line-height: 1.05;
+}
 
   .free-prequel-hook,
   .free-prequel-description {
