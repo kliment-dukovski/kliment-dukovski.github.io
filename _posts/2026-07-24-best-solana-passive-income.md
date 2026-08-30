@@ -25,7 +25,7 @@ slug: "best-solana-passive-income"
 permalink: "/articles/best-solana-passive-income/"
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/passive-income-article.css' | relative_url }}?v={{ site.github.build_revision }}">
 
 The best Solana passive income options include native SOL staking, liquid staking via tokens such as JitoSOL and jupSOL, holding JLP and JUICED tokens, and financing real-world payment activity through Huma Classic.
 
