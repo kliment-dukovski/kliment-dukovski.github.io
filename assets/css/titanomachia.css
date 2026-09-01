@@ -114,7 +114,28 @@ blockquote { margin: 52px 0 0; padding: 6px 0 6px 30px; border-left: 1px solid v
 .map-copy h2 { margin-bottom: 28px; font-size: clamp(48px, 6vw, 86px); line-height: .96; letter-spacing: -.045em; }
 .map-copy > p:not(.eyebrow) { max-width: 430px; color: var(--ink-soft); font-size: 15px; line-height: 1.75; }
 .map-status { display: inline-block; margin-top: 28px; padding-bottom: 8px; border-bottom: 1px solid var(--blue-bright); color: var(--blue-bright); font-size: 8px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
-.map-frame { position: relative; display: grid; place-items: center; min-height: 480px; border: 1px solid rgba(74,131,255,.28); background: radial-gradient(circle at 45% 48%, rgba(21,91,232,.18), transparent 34%), rgba(4,8,16,.45); box-shadow: 0 30px 80px rgba(0,0,0,.25); }
+.map-frame {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 480px;
+  overflow: hidden;
+  border: 1px solid rgba(74,131,255,.28);
+  background:
+    radial-gradient(
+      circle at 45% 48%,
+      rgba(21,91,232,.18),
+      transparent 34%
+    ),
+    rgba(4,8,16,.45);
+  box-shadow: 0 30px 80px rgba(0,0,0,.25);
+}
+.system-map {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
 .map-placeholder { text-align: center; }
 .map-placeholder span, .map-placeholder small { display: block; color: rgba(255,255,255,.45); font: 8px ui-monospace, monospace; letter-spacing: .2em; text-transform: uppercase; }
 .map-placeholder strong { display: block; margin: 18px 0; color: rgba(255,255,255,.17); font-size: clamp(40px, 7vw, 96px); font-weight: 300; letter-spacing: .12em; }
@@ -228,7 +249,7 @@ footer a { color: #79a5ff; }
   .white-star { margin: 20px 0 14px; }
   .map-break { min-height: 0; padding: 38px 22px 50px; }
   .map-copy h2 { font-size: 50px; }
-  .map-frame { min-height: 260px; }
+  .map-frame { min-height: 0; }
   .map-placeholder strong { font-size: 32px; }
   .story-threshold { padding: 58px 22px 64px; }
   .story-threshold .eyebrow { margin-bottom: 16px; }
