@@ -127,9 +127,9 @@ blockquote { margin: 52px 0 0; padding: 6px 0 6px 30px; border-left: 1px solid v
     url("../images/titanomachia/mercer-background.webp")
     center / cover no-repeat;
 
-  filter: blur(4px);
+  filter: blur(1px);
   transform: scale(1.08);
-  opacity: 0.80;
+  opacity: 0.95;
 }
 
 .closing-signal::after {
