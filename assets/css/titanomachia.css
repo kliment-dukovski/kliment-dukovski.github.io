@@ -118,23 +118,19 @@ blockquote { margin: 52px 0 0; padding: 6px 0 6px 30px; border-left: 1px solid v
   position: relative;
   display: grid;
   place-items: center;
-  min-height: 480px;
+  width: 100%;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
-  border: 1px solid rgba(74,131,255,.28);
-  background:
-    radial-gradient(
-      circle at 45% 48%,
-      rgba(21,91,232,.18),
-      transparent 34%
-    ),
-    rgba(4,8,16,.45);
-  box-shadow: 0 30px 80px rgba(0,0,0,.25);
+  border: 1px solid rgba(74, 131, 255, 0.28);
+  background: rgba(4, 8, 16, 0.45);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
 }
 .system-map {
   display: block;
   width: 100%;
-  height: auto;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
 .map-placeholder { text-align: center; }
 .map-placeholder span, .map-placeholder small { display: block; color: rgba(255,255,255,.45); font: 8px ui-monospace, monospace; letter-spacing: .2em; text-transform: uppercase; }
