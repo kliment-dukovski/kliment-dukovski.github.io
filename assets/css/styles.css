@@ -474,7 +474,7 @@ body[data-page="fiction"] .fiction-world-cta .button {
 }
 
 .book-card {
-  align-items: start;
+  align-items: stretch;
 }
 
 .book-body {
@@ -729,11 +729,11 @@ body[data-page="work"] main > .section {
 }
 
 .book-grid {
-  align-items: start;
+  align-items: stretch;
 }
 
 .book-card {
-  align-self: start;
+  align-self: stretch;
 }
 
 .book-description {
