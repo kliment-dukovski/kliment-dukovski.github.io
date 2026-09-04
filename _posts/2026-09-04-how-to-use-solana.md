@@ -66,7 +66,7 @@ citations:
     <li><a href="#cash-out">Cash out</a></li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#frequently-asked-questions">Frequently asked questions</a></li>
-    <li><a href="#financial-disclaimer">Financial disclaimer</a></li>
+  
   </ol>
 </details>
 
