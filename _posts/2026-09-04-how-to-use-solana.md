@@ -260,22 +260,21 @@ Here’s the general process in Jupiter:
 </figure>
 
 <div class="solana-guide-columns">
-  <section class="solana-guide-panel solana-guide-panel--pros" markdown="1">
+  <div class="solana-guide-panel solana-guide-panel--pros">
+    <h3>Pros</h3>
+    <ul>
+      <li>Funds can arrive within minutes</li>
+      <li>Seamless wallet-based process</li>
+    </ul>
+  </div>
 
-### Pros
-
-- Funds can arrive within minutes
-- Seamless wallet-based process
-
-  </section>
-  <section class="solana-guide-panel solana-guide-panel--cons" markdown="1">
-
-### Cons
-
-- Usually requires identity verification the first time
-- Fees can reach about 5%, depending on the provider
-
-  </section>
+  <div class="solana-guide-panel solana-guide-panel--cons">
+    <h3>Cons</h3>
+    <ul>
+      <li>Usually requires identity verification the first time</li>
+      <li>Fees can reach about 5%, depending on the provider</li>
+    </ul>
+  </div>
 </div>
 
 ### Method 2: Withdraw SOL from an exchange
@@ -295,25 +294,24 @@ Funds often arrive within seconds, although exchange processing or network condi
   <figcaption>Withdrawing SOL through the Solana network</figcaption>
 </figure>
 
-<div class="solana-guide-columns">
-  <section class="solana-guide-panel solana-guide-panel--pros" markdown="1">
 
-### Pros
+ <div class="solana-guide-columns">
+  <div class="solana-guide-panel solana-guide-panel--pros">
+    <h3>Pros</h3>
+    <ul>
+      <li>Funds can arrive within seconds after exchange processing</li>
+      <li>Usually low transfer cost</li>
+    </ul>
+  </div>
 
-- Funds can arrive within seconds after exchange processing
-- Usually low transfer cost
-
-  </section>
-  <section class="solana-guide-panel solana-guide-panel--cons" markdown="1">
-
-### Cons
-
-- Opening an exchange account usually requires identity verification
-- Timing and availability depend on the exchange
-
-  </section>
+  <div class="solana-guide-panel solana-guide-panel--cons">
+    <h3>Cons</h3>
+    <ul>
+      <li>Opening an exchange account usually requires identity verification</li>
+      <li>Timing and availability depend on the exchange</li>
+    </ul>
+  </div>
 </div>
-
 ### Method 3: Bridge from another blockchain
 
 Leading wallets now include built-in bridges that can transfer supported assets from networks such as Ethereum to Solana.
@@ -331,24 +329,22 @@ Leading wallets now include built-in bridges that can transfer supported assets 
 For assets that are not supported by your wallet’s integrated bridge, a service such as [Portal Bridge](https://portalbridge.com/) may offer a route. The asset received may be a wrapped version, which can have different risks and liquidity from the original asset.
 
 <div class="solana-guide-columns">
-  <section class="solana-guide-panel solana-guide-panel--pros" markdown="1">
+  <div class="solana-guide-panel solana-guide-panel--pros">
+    <h3>Pros</h3>
+    <ul>
+      <li>Moves assets you already own on another blockchain</li>
+      <li>Can be cheaper than selling and rebuying</li>
+    </ul>
+  </div>
 
-### Pros
-
-- Moves assets you already own on another blockchain
-- Can be cheaper than selling and rebuying
-
-  </section>
-  <section class="solana-guide-panel solana-guide-panel--cons" markdown="1">
-
-### Cons
-
-- Routes and supported assets may be limited
-- Bridge and wrapped-asset risks make this less beginner-friendly
-
-  </section>
+  <div class="solana-guide-panel solana-guide-panel--cons">
+    <h3>Cons</h3>
+    <ul>
+      <li>Routes and supported assets may be limited</li>
+      <li>Bridge and wrapped-asset risks make this less beginner-friendly</li>
+    </ul>
+  </div>
 </div>
-
 ## How to send and receive crypto on Solana {#send-and-receive}
 
 To receive crypto, open your wallet, select **Receive**, and copy your public address. Send that address to the person paying you.
