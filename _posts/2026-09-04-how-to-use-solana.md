@@ -211,6 +211,7 @@ Now that you’ve chosen your wallet, let’s walk through the setup process:
 </figure>
 
 3. **Write down your seed phrase on paper and keep it secure.** Don’t take screenshots or copy it into another file on your computer. You can also create a wallet with a Gmail account, but this option is limited to one wallet. Proceed to name your wallet to indicate what it’s for.
+{: start="3"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-wallet-recovery-options.png' | relative_url }}" alt="Jupiter Wallet recovery options" width="783" height="638" loading="lazy" decoding="async">
@@ -218,6 +219,7 @@ Now that you’ve chosen your wallet, let’s walk through the setup process:
 
 4. **Use a strong password** and enable biometrics, auto-lock, and any other security features the wallet offers.
 5. **Copy your public address and label it clearly.** You’ll need to paste it when sending funds from an exchange to your wallet.
+{: start="4"}
 
 Every wallet has a public address. This is the address you use to receive funds, similar to a bank account number in traditional banking.
 
@@ -254,24 +256,28 @@ Here’s how to fund your Solana wallet using Jupiter:
 </figure>
 
 2. **Scroll until you find** the “Buy crypto with local currencies” option if you’re using the Web wallet, or select “Buy with card” in the mobile app.
+{: start="2"}
 
 <figure class="article-figure">
   <img src="{{ '/assets/images/solana-guide/jupiter-wallet-deposit-options.png' | relative_url }}" alt="Jupiter Wallet deposit options" width="1621" height="756" loading="lazy" decoding="async">
 </figure>
 
 3. **Select the currency and amount** you want to spend on SOL, then choose your payment method.
+{: start="3"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-wallet-buy-sol.png' | relative_url }}" alt="Buy SOL in Jupiter Wallet" width="777" height="1133" loading="lazy" decoding="async">
 </figure>
 
 4. **If you choose the card option,** you will need to verify your ID with the onramp provider (for example, MoonPay). This requires an ID card and a face scan taken with your phone's camera. Before you buy SOL, compare payment options and onramp providers to get the best rate.
+{: start="4"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-wallet-onramp-comparison.png' | relative_url }}" alt="Jupiter Wallet onramp provider comparison" width="688" height="946" loading="lazy" decoding="async">
 </figure>
 
 5. **Confirm that all details and amounts** are correct, then select “Buy SOL”. Follow the onramp provider's steps to complete the purchase.
+{: start="5"}
 
 I’ve selected Jupiter Wallet for this example, but the process is nearly identical across all other wallets.
 
@@ -297,13 +303,14 @@ I’ve selected Jupiter Wallet for this example, but the process is nearly ident
 If you already hold SOL on a crypto exchange like Coinbase or Binance, here’s how to transfer it to your wallet.
 
 1. **Select Receive** from the options list in your Jupiter wallet.
-2. <figure class="article-figure article-figure--compact">
+<figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-wallet-receive.png' | relative_url }}" alt="Receive SOL in Jupiter Wallet" width="696" height="333" loading="lazy" decoding="async">
 </figure>
-3. **Copy the wallet address** shown on the next screen.
-4. **Log in to your crypto exchange account,** then select “Withdraw”.
-5. **Select the Solana network and SOL.** This is important.
-6. **Paste your wallet address** and enter the amount you want to transfer.
+2. **Copy the wallet address** shown on the next screen.
+3. **Log in to your crypto exchange account,** then select “Withdraw”.
+4. **Select the Solana network and SOL.** This is important.
+5. **Paste your wallet address** and enter the amount you want to transfer.
+{: start="2"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/binance-sol-withdrawal.png' | relative_url }}" alt="Withdraw SOL from Binance using the Solana network" width="1020" height="933" loading="lazy" decoding="async">
@@ -345,6 +352,7 @@ Here’s how to fund your Solana wallet via its integrated bridge:
 
 3. **Copy the address** on the selected blockchain (say Ethereum).
 4. **Use the copied address** as the recipient. You may be limited in which assets you can send. For example, the Jupiter wallet only supports USDC transfers between blockchains, so you’ll need to swap your ETH for USDC to bridge to Solana.
+{: start="3"}
 
 If you want to bridge assets that aren’t supported in your wallet, you can use [Portal Bridge](https://portalbridge.com/). The process is similar: connect your two wallets from different blockchains through the Portal Bridge website and select the amount to transfer. On the receiving end, you typically get a wrapped version of the asset (for example, WBTC if you move Bitcoin to Solana), which you can swap for SOL directly in your wallet.
 
@@ -393,13 +401,15 @@ Swapping Solana tokens is fast, cheap, and straightforward. You can do it direct
 </figure>
 
 2. **Select the tokens you want to swap.** If a token is not in the list, start typing its name and select it from the list.
+{: start="2"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-token-swap-details.png' | relative_url }}" alt="Jupiter token swap details" width="778" height="790" loading="lazy" decoding="async">
 </figure>
 
-4. **Enter the number of tokens you wish to spend.** The app will automatically show how many tokens you will receive based on the current exchange rate.
-5. **Review the transaction** in the wallet pop-up and confirm it.
+3. **Enter the number of tokens you wish to spend.** The app will automatically show how many tokens you will receive based on the current exchange rate.
+4. **Review the transaction** in the wallet pop-up and confirm it.
+{: start="3"}
 
 
 
@@ -452,7 +462,8 @@ Buying tokenized stocks on Solana is the same as buying any other token.
   <img src="{{ '/assets/images/solana-guide/jupiter-tokenized-stock-swap.png' | relative_url }}" alt="Buy tokenized stocks with Jupiter Swap" width="735" height="637" loading="lazy" decoding="async">
 </figure>
 
-4. Select the “Stocks” tab, then choose the tokenized stock you wish to buy.
+3. Select the “Stocks” tab, then choose the tokenized stock you wish to buy.
+{: start="3"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/solana-tokenized-stocks-list.png' | relative_url }}" alt="Tokenized stocks available on Solana" width="620" height="992" loading="lazy" decoding="async">
@@ -461,6 +472,7 @@ Buying tokenized stocks on Solana is the same as buying any other token.
 4. Enter the amount you want to spend, then select “Swap.”
 5. Review the transaction in the wallet pop-up, then confirm it.
 6. Your tokenized stocks are now in your wallet.
+{: start="4"}
 
 To sell your tokenized stocks, repeat the process.
 
@@ -486,6 +498,7 @@ Here’s how to stake Solana:
 3. **Choose your validator.** These three wallets operate their own reputable validators. You can also choose other validators such as Jupiter, Jito, Marinade, and Helius, as well as Kraken and Coinbase.
 
 4. **Enter the amount of SOL** you want to stake, then sign the transaction.
+{: start="3"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/solflare-validator-staking.png' | relative_url }}" alt="Choose a Solana validator in Solflare Wallet" width="692" height="587" loading="lazy" decoding="async">
@@ -567,6 +580,7 @@ Here’s how to lend and borrow on Jupiter:
 
 5. Your USDC is now locked on Jupiter Lend’s platform and earns a variable APY based on the current market rate.
 6. Whenever you want, select the “Withdraw” option and enter the amount you wish to withdraw. Your funds will return to your wallet instantly.
+{: start="5"}
 
 If you’re looking to borrow assets against your tokens, here’s how to do it:
 
@@ -582,12 +596,14 @@ If you’re looking to borrow assets against your tokens, here’s how to do it:
 
 
 4. Deposit as much SOL as you want.
+{: start="2"}
 
 <figure class="article-figure article-figure--compact">
   <img src="{{ '/assets/images/solana-guide/jupiter-lend-collateral-deposit.png' | relative_url }}" alt="Deposit SOL as collateral on Jupiter Lend" width="877" height="815" loading="lazy" decoding="async">
 </figure>
 
 5. Borrow USDC, just keep the LTV in mind so you don’t overextend.
+{: start="5"}
 
 <aside class="solana-guide-callout solana-guide-callout--warning" aria-label="Jupiter Offerbook" markdown="1">
 
@@ -676,6 +692,7 @@ Here’s what Solana prediction markets actually look like:
 6. **Confirm the transaction** in your wallet and wait for the event to resolve.
 7. **You can sell your position** before the event resolves, as long as there’s enough liquidity.
 8. **When the event resolves** and you still hold the contracts, you either win or lose. If you win, claim your profit from your account.
+{: start="4"}
 
 Prediction markets are among the largest betting activities in the crypto space, with Polymarket's cumulative trading volume exceeding $55 billion from January to August 2026, [per DeFi Rate](https://defirate.com/prediction-markets/volume/polymarket/).
 
