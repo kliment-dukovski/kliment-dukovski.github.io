@@ -18,10 +18,10 @@ tags:
 publication: "Kliment Dukovski"
 summary: "Learn how to choose and secure a Solana wallet, fund it, send funds, swap tokens, stake SOL, use DeFi, and cash out safely."
 description: "Learn how to use Solana safely: choose a wallet, buy or transfer SOL, understand transactions, swap tokens, stake, use DeFi, and cash out."
-image: "/assets/images/solana-guide/solana-guide-hero.png"
-image_alt: "Solana beginner guide illustration showing a phone wallet and the Solana logo"
-image_width: 2048
-image_height: 747
+image: "/assets/images/solana-guide/solana-guide-featured-v2.webp"
+image_alt: "Solana beginner guide illustration with a crypto wallet, token transfers, swaps, staking, and DeFi"
+image_width: 1672
+image_height: 941
 slug: "how-to-use-solana"
 permalink: "/articles/how-to-use-solana/"
 about:
