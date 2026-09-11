@@ -3,8 +3,7 @@ layout: article
 title: "5 Best Ways to Earn Passive Income on Solana in 2026"
 seo_title: "5 Best Solana Passive Income Options in 2026"
 date: 2026-07-24
-last_modified_at: 2026-09-11
-use_yields_last_modified: true
+last_modified_at: 2026-07-25
 category: "Solana"
 content_type: "Practical Guide"
 featured: true
