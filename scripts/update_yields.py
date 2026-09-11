@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import re
 import sys
 import urllib.error
 import urllib.request
@@ -346,23 +345,6 @@ def common_checked_date(data: dict[str, Any]) -> str:
     return min(dates).date().isoformat()
 
 
-def update_front_matter(article_path: Path, date_value: str) -> None:
-    if not article_path.exists():
-        return
-    text = article_path.read_text(encoding="utf-8")
-    updated, count = re.subn(
-        r"(?m)^last_modified_at:\s*\d{4}-\d{2}-\d{2}\s*$",
-        f"last_modified_at: {date_value}",
-        text,
-        count=1,
-    )
-    if count != 1:
-        raise ValueError(
-            f"Could not update last_modified_at in {article_path}"
-        )
-    article_path.write_text(updated, encoding="utf-8")
-
-
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -370,17 +352,9 @@ def main() -> int:
         default="_data/yields.json",
         help="Path to the Jekyll data file",
     )
-    parser.add_argument(
-        "--article",
-        default=(
-            "_posts/2026-07-24-best-solana-passive-income.md"
-        ),
-        help="Article whose last_modified_at field should be updated",
-    )
     args = parser.parse_args()
 
     data_path = Path(args.data)
-    article_path = Path(args.article)
     old_data: dict[str, Any] = {}
     if data_path.exists():
         old_data = json.loads(data_path.read_text(encoding="utf-8"))
@@ -437,16 +411,13 @@ def main() -> int:
         now.date().isoformat()
         if values_changed
         else old_data.get("last_changed_at", now.date().isoformat())
-    )
+)
 
     data_path.parent.mkdir(parents=True, exist_ok=True)
     data_path.write_text(
         json.dumps(data, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-
-    if values_changed:
-        update_front_matter(article_path, data["last_changed_at"])
 
     if errors:
         print("Some sources could not be refreshed:", file=sys.stderr)
