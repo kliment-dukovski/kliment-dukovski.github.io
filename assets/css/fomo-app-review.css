@@ -1,0 +1,115 @@
+.fomo-review .article-figure {
+  margin: 2rem 0;
+}
+
+.fomo-review .article-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) * 0.75);
+  background: var(--surface);
+}
+
+.fomo-review .article-figure--portrait img {
+  width: min(100%, 430px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fomo-review .article-figure--compact img {
+  width: min(100%, 520px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fomo-review-columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.25rem;
+}
+
+.fomo-review-panel {
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.fomo-review-panel--pros {
+  border-top: 4px solid #17875f;
+}
+
+.fomo-review-panel--cons {
+  border-top: 4px solid #b4641a;
+}
+
+.fomo-review-panel h3 {
+  margin-top: 0;
+}
+
+.fomo-review-panel--pros h3 {
+  color: #116b4a;
+}
+
+.fomo-review-panel--cons h3 {
+  color: #934b0c;
+}
+
+.fomo-review-panel ul {
+  margin-bottom: 0;
+}
+
+.fomo-review-callout {
+  margin: 2rem 0;
+  padding: clamp(1.2rem, 3vw, 1.65rem);
+  border: 1px solid color-mix(in srgb, var(--accent-deep) 34%, var(--line));
+  border-left: 4px solid var(--accent-deep);
+  border-radius: var(--radius);
+  background: var(--surface);
+  background: color-mix(in srgb, var(--accent-deep) 6%, var(--surface));
+}
+
+.fomo-review-callout > :first-child,
+.fomo-review-panel > :first-child {
+  margin-top: 0;
+}
+
+.fomo-review-callout > :last-child,
+.fomo-review-panel > :last-child {
+  margin-bottom: 0;
+}
+
+.fomo-review-findings {
+  table-layout: fixed;
+}
+
+.fomo-review-findings th:first-child {
+  width: 32%;
+}
+
+.fomo-review-findings td p:last-child {
+  margin-bottom: 0;
+}
+
+.fomo-review .twitter-tweet {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@media (max-width: 620px) {
+  .fomo-review-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .fomo-review .fomo-review-findings {
+    white-space: normal;
+  }
+
+  .fomo-review-findings th,
+  .fomo-review-findings td {
+    min-width: 0;
+  }
+}
