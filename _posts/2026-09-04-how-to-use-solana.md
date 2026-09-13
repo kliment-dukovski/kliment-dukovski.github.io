@@ -6,7 +6,7 @@ date: 2026-09-04
 last_modified_at: 2026-09-04
 category: "Solana"
 content_type: "Beginner Guide"
-featured: true
+featured: false
 tags:
   - How to use Solana
   - Solana beginner guide
