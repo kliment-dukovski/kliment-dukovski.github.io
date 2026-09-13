@@ -6,7 +6,7 @@ date: 2026-09-13
 last_modified_at: 2026-09-13
 category: "Crypto"
 content_type: "Review"
-featured: false
+featured: true
 tags:
   - Fomo app review
   - Fomo trading app
@@ -65,15 +65,15 @@ faq:
 
 <div class="fomo-review" markdown="1">
 
-Fomo is one of the easiest apps I have used to see how crypto traders are positioning and then buy the same tokens in my account. This is also the main risk.
+Fomo is one of the easiest apps I have used to see how crypto traders are positioning and then buy the same tokens in my account.
 
 I initially funded the app with \$5, then transferred roughly \$20 total to test how deposits work and how orders are handled, including fees and slippage. I followed several KOLs, opened a few small positions, and watched the leaderboard change as different meme coins pumped or dumped.
 
 The app itself is fast, polished, and incredibly useful for discovering tokens if you know who to follow. The social feed helps with that, showing real-time buys and sells, as well as comments called “thesis” left by traders.
 
-You can also search for a token by its contract address to see token warnings, which can help you spot obvious issues like unlocked liquidity or bundled supply.
+You can also search for a token by its contract address, and you can see token warnings, which can help you spot obvious issues like unlocked liquidity or bundled supply.
 
-However, as with trading on any other platform, it all comes down to which tokens you’re buying. If you’re simply following what others are buying, you’ll likely quickly burn your account.
+However, as with trading on any other platform, it all comes down to which tokens you’re buying. If you’re simply following what others are buying, you’ll likely burn your account.
 
 I bought a few tokens I saw KOLs buying, and a few days later those positions were down 99%. Other positions, like PONS and STONKS, did much better, but those had actual products and buyback flywheels backing them. To be profitable, you need more analysis than blindly copying others.
 
@@ -89,7 +89,7 @@ My September 2 run classified 27,130 of 476,627 wallets, or 5.69%, as net positi
 
 Fomo is a legit and genuinely useful social trading app, but it’s not an easy-profit app. You need to use multiple tools to discover tokens and cross-reference the data in the Fomo app before opening trades. I wouldn’t recommend blindly copying other traders, though if you’re lucky, that may work too.
 
-While the app’s main focus is meme coin social trading, you can also trade crypto on the spot market across multiple blockchains like BTC, SOL, ETH, and HYPE, and trade perps via Hyperliquid, including crypto, stocks, commodities, indices, and forex.
+While the app’s main focus is meme coin social trading, you can also trade crypto on the spot market like BTC, SOL, ETH, and HYPE, and trade perps, including crypto, stocks, commodities, indices, and forex.
 
 Trading execution is fast, but expect high fees and slippage on illiquid tokens and blockchains like the Robinhood Chain. Another downside is that if selling a token has high price impact, Fomo may not let you sell it.
 
@@ -246,7 +246,7 @@ Of course, due diligence still matters if you want to find the right coin before
 
 I used Solana to make my first deposit, and the funds arrived within seconds. There was no bridging or complicated steps: I simply copied and pasted my Fomo address into my Solana wallet, as with any other crypto transfer.
 
-The Fomo app also offers fiat funding options, including Apple Pay, Google Pay, cards, and bank transfers. But I didn’t try them because I expect higher fees, which are common with fiat-to-crypto onramps. I assume availability depends on your country of residence and the payment provider.
+The Fomo app also offers fiat funding options, including Apple Pay, Google Pay, cards, and Cash App. But I didn’t try them because I expect higher fees, which are common with fiat-to-crypto onramps. I assume availability for these methods depend on your country of residence and the payment provider.
 
 <figure class="article-figure article-figure--portrait">
   <img src="{{ '/assets/images/fomo-app-review/fomo-deposit-options.webp' | relative_url }}" alt="Fomo mobile app deposits" width="946" height="2048" loading="lazy" decoding="async">
@@ -353,13 +353,11 @@ The result was poor and worse than I expected. Moreover, the app wouldn’t let 
 
 This doesn’t seem to be an isolated case. I’ve seen several X users complain about this as well.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Opened a position on <a href="https://x.com/fomo?ref_src=twsrc%5Etfw">@fomo</a> worth $2500 at 3m<br><br>Instantly down $1k+<br><br>Order executed at 5.4m and the price never reached there<br><br>What the fuck are they doing over there!? <a href="https://t.co/yG6tlS17sx">pic.twitter.com/yG6tlS17sx</a></p>&mdash; Zer0 🐂🀄️ (@degengambleh) <a href="https://x.com/degengambleh/status/2096809535566749836?ref_src=twsrc%5Etfw">September 7, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">dude i genuinely love <a href="https://x.com/fomo?ref_src=twsrc%5Etfw">@fomo</a>’s UI, but buying a $4m robinhood token with $500 and ending up with only $468 is crazy.<br><br>38% price impact on a 3-figure trade, plus fees and slippage taking another 6.4%?<br><br>it feels like you get taxed for pressing buy. this needs to be fixed.</p>&mdash; WASSIE (@0xWassie) <a href="https://x.com/0xWassie/status/2095867614387912740?ref_src=twsrc%5Etfw">September 4, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 I can’t guarantee this is exactly what these X posts claim without seeing the transactions, but since I had similar results, I’m not overly skeptical.
 
-You can get a 10% discount on Fomo’s trading fees by using [<u>my referral code</u>](https://fomo.family/r/lyslam).
+Get a 10% discount on Fomo’s trading fees is by using [<u>my referral code</u>](https://fomo.family/r/lyslam).
 
 ### Leaderboard problem
 
@@ -455,7 +453,7 @@ My audit therefore does not prove that the original 6.16% figure is false. It sh
 
 ## Is the Fomo app safe and legitimate?
 
-Yes, the Fomo app is a real, funded product that routes genuine on-chain trades. Fomo announced a [<u>\$75 million Series B</u>](https://fomo.family/blog/fomo-series-b) in June 2026, led by Index Ventures, with Union Square Ventures and Benchmark participating.
+Yes, the Fomo app is a real, funded product that routes genuine on-chain trades. Fomo announced a [<u>$75 million Series B</u>](https://fomo.family/blog/fomo-series-b) in June 2026, led by Index Ventures, with Union Square Ventures and Benchmark participating.
 
 As popularity and adoption grew, Fomo's daily fees jumped from around \$100,000 to over \$2 million at their peak in early September 2026, per [<u>DefiLlama</u>](https://defillama.com/protocol/fomo).
 
