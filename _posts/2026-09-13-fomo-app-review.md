@@ -239,7 +239,7 @@ Of course, due diligence still matters if you want to find the right coin before
 
 <figure class="article-figure">
   <img src="{{ '/assets/images/fomo-app-review/fomo-coin-feed-stonks.webp' | relative_url }}" alt="Fomo coin feed (STONK)" width="1362" height="902" loading="lazy" decoding="async">
-  <figcaption>Fomo coin feed (STONKS)</figcaption>
+  <figcaption>Fomo coin feed (STONK)</figcaption>
 </figure>
 
 ### Depositing is fast and simple
