@@ -75,7 +75,7 @@ You can also search for a token by its contract address, and you can see token w
 
 However, as with trading on any other platform, it all comes down to which tokens you’re buying. If you’re simply following what others are buying, you’ll likely burn your account.
 
-I bought a few tokens I saw KOLs buying, and a few days later those positions were down 99%. Other positions, like PONS and STONKS, did much better, but those had actual products and buyback flywheels backing them. To be profitable, you need more analysis than blindly copying others.
+I bought a few tokens I saw KOLs buying, and a few days later those positions were down 99%. Other positions, like PONS and STONK, did much better, but those had actual products and buyback flywheels backing them. To be profitable, you need more analysis than blindly copying others.
 
 Another question I had was whether other Fomo traders were profitable. A viral X post from @FoxyhitsW claimed that only about 5% of 429,000 traders were in profit. I found the public Dune query behind the claim, forked it, and reran it.
 
@@ -238,7 +238,7 @@ There’s a lot to like about this app, as it solves a major pain point from the
 Of course, due diligence still matters if you want to find the right coin before takeoff, but tracking large players is now much easier in a single app. Granted, most of these whales can use multiple wallets, and they probably do, but the public account is still visible to everyone.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/fomo-app-review/fomo-coin-feed-stonks.webp' | relative_url }}" alt="Fomo coin feed (STONKS)" width="1362" height="902" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/fomo-app-review/fomo-coin-feed-stonks.webp' | relative_url }}" alt="Fomo coin feed (STONK)" width="1362" height="902" loading="lazy" decoding="async">
   <figcaption>Fomo coin feed (STONKS)</figcaption>
 </figure>
 
