@@ -1,0 +1,56 @@
+.stock-memecoins-body .stock-table-scroll {
+  width: 100%;
+  margin: 1.75rem 0 2rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.stock-memecoins-body .stock-table-scroll:focus-visible {
+  outline: 2px solid #12a594;
+  outline-offset: 3px;
+}
+
+.article-content .stock-memecoins-body table {
+  display: table;
+  min-width: 1050px;
+  width: 100%;
+  margin: 0;
+  white-space: normal;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.stock-memecoins-body th,
+.stock-memecoins-body td {
+  padding: 14px;
+  border-right: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.stock-memecoins-body th {
+  background: #eef6f5;
+  min-width: 120px;
+}
+
+.stock-memecoins-body th:first-child,
+.stock-memecoins-body td:first-child {
+  min-width: 170px;
+  font-weight: 600;
+}
+
+.stock-memecoins-body tbody tr:nth-child(even) {
+  background: #f8fafb;
+}
+
+.stock-memecoins-body td:last-child,
+.stock-memecoins-body th:last-child {
+  border-right: 0;
+}
+
+@media (max-width: 720px) {
+  .stock-memecoins-body .stock-table-scroll { margin: 1.25rem 0 1.75rem; }
+  .stock-memecoins-body th,
+  .stock-memecoins-body td { padding: 12px; }
+}
