@@ -102,9 +102,7 @@ In addition to stocks, meme coins can be paired with:
 
 - Leveraged crypto coins like 3x SOL and 3x BTC.
 
-### Tokenized stock issuers
-
-Some of the main beneficiaries in this new stock-paired meme-coin meta are tokenized stock issuers. This creates new revenue streams, including minting and redemption fees, management and administrative fees, and trading fees.
+## Tokenized stock issuers
 
 While the hype is currently on meme-coin pairings, tokenized stocks by themselves are a massive market, especially for users in countries that find it hard to open US brokerage accounts and buy US stocks. Beyond unlocking new regions, tokenized stocks can trade 24/7 and serve as collateral in decentralized finance (DeFi) apps.
 
@@ -142,7 +140,7 @@ Let’s look at five tokenized stock issuers, what their tokens represent, regio
 
 <aside class="article-callout" aria-label="Tokenized stock regulation and Securitize Stocks" markdown="1">
 
-The Securities and Exchange Commission (SEC) issued an “Innovation Exemption” on September 17, 2026, allowing tokenized stock trading in the US. Under this framework, trading tokenized stock in the US is conditional and limited to qualifying platforms, with availability depending on the platform and product.
+The Securities and Exchange Commission (SEC) [issued an “Innovation Exemption”](https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment) on September 17, 2026, allowing tokenized stock trading in the US. Under this framework, trading tokenized stock in the US is conditional and limited to qualifying platforms, with availability depending on the platform and product.
 
 On October 8, 2026, [Securitize launched global onchain trading](<https://x.com/Securitize/status/2108180783827411451>) of US stocks with security entitlements on the Solana blockchain. Securitize Stocks aims to bring the most popular US stocks onchain to eligible investors in the US, EU, and other permitted jurisdictions.
 
@@ -181,7 +179,7 @@ Pump.fun is the oldest of these three launchpads, launched in January 2024, and 
 
 Although StonkFun is a newer launchpad that started in August 2026, it’s one of the more popular on Solana thanks to its buyback flywheel. A share of trading fees from every V3 pool and from Raydium LaunchLab launches (from the bonding curve vault before migration and the Raydium CPMM pool after) goes toward buying the top 10 tokens by market cap launched on the platform.
 
-Let’s see how they compare and what their native tokens are.
+Let’s see how these launchpads compare and what their native tokens are.
 
 <div class="stock-table-scroll" tabindex="0" role="region" aria-label="Memecoin launchpads comparison" markdown="1">
 
@@ -238,7 +236,7 @@ Jupiter spends 50% of its fee revenue to buy back its token, JUP. As demand for 
 
 ## Risks and verdict
 
-During late 2024 and early 2025, when meme-coin mania was rampant, [Raydium had peak daily revenue](<https://defillama.com/protocol/raydium-amm?groupBy=weekly&revenue=true&tvl=false>) of $4 to $8 million, while [Pump.fun genera](<https://defillama.com/protocol/pump.fun?groupBy=weekly&revenue=true>)ted $14 to $43 million in daily revenue, according to data from DefiLlama. For comparison, Raydium averaged about $800,000 in daily revenue in September and October 2026, while Pump.fun saw about $8 million in daily revenue during the same period.
+During late 2024 and early 2025, when meme-coin mania was rampant, [Raydium had peak daily revenue](<https://defillama.com/protocol/raydium-amm?groupBy=weekly&revenue=true&tvl=false>) of $4 to $8 million, while [Pump.fun generated](<https://defillama.com/protocol/pump.fun?groupBy=weekly&revenue=true>) $14 to $43 million in daily revenue, according to data from DefiLlama. For comparison, Raydium averaged about $800,000 in daily revenue in September and October 2026, while Pump.fun saw about $8 million in daily revenue during the same period.
 
 In September 2026, total tokenized stock trading volume on [Solana crossed $4.4 billion](<https://x.com/solana/status/2106768200264241173>), and the crypto bull run hadn't even started yet. When Bitcoin hits new highs in the coming years and crypto hype returns, these numbers will become mind-boggling, and the infrastructure companies powering tokenized stocks and their meme-coin pairings will likely see increased revenue.
 
@@ -249,5 +247,7 @@ New regulations could also affect how these companies operate. Even though most 
 Despite these risks, investing in these companies’ tokens is likely less risky than trying to identify the few meme-coin winners among the tens of thousands launched daily, most of which never leave the bonding curve. Infrastructure tokens avoid the high failure rate of meme-coin launches while giving investors exposure to revenue-generating platforms. They still carry token-price and platform risks, though.
 
 As with any crypto investment, do your due diligence and never invest more than you can afford to lose.
+
+*This article is for informational and educational purposes only and does not constitute financial or investment advice or a recommendation to buy, sell, or hold any asset. Cryptocurrencies, memecoins, and tokenized stocks carry significant risks, including the potential loss of your entire investment. Market data may change, and past performance does not guarantee future results. Always conduct your own research, consider your financial circumstances and risk tolerance, and consult a qualified financial adviser before making investment decisions.*
 
 </div>
