@@ -152,7 +152,7 @@ Trading on the Securitize Stocks platform will require KYC/AML checks.
 
 ## Memecoin launchpads
 
-Tokenizing stocks and pairing them with memecoins is the bread and butter of token launchpads like Pump.fun, StonkFun, and Pons. These platforms let anyone create a meme coin, pair it with supported tokenized stocks or other assets, and launch it in a few clicks at minimal cost.
+Tokenizing stocks and pairing them with meme coins is the bread and butter of token launchpads like Pump.fun, StonkFun, and Pons. These platforms let anyone create a meme coin, pair it with supported tokenized stocks or other assets, and launch it in a few clicks at minimal cost.
 
 This is one reason thousands of new meme coins launch daily. That’s good for launchpads, which earn fees. For example, on Pump.fun, each trade on the bonding curve [costs 1.25%](<https://pump.fun/docs/fees>), with 0.95% going to the launchpad and the remainder to the token creator. If the meme coin graduates, PumpSwap, Pump.fun’s native DEX, continues collecting protocol fees.
 
@@ -248,6 +248,6 @@ Despite these risks, investing in these companies’ tokens is likely less risky
 
 As with any crypto investment, do your due diligence and never invest more than you can afford to lose.
 
-*This article is for informational and educational purposes only and does not constitute financial or investment advice or a recommendation to buy, sell, or hold any asset. Cryptocurrencies, memecoins, and tokenized stocks carry significant risks, including the potential loss of your entire investment. Market data may change, and past performance does not guarantee future results. Always conduct your own research, consider your financial circumstances and risk tolerance, and consult a qualified financial adviser before making investment decisions.*
+*This article is for informational and educational purposes only and does not constitute financial or investment advice or a recommendation to buy, sell, or hold any asset. Cryptocurrencies, meme coins, and tokenized stocks carry significant risks, including the potential loss of your entire investment. Market data may change, and past performance does not guarantee future results. Always conduct your own research, consider your financial circumstances and risk tolerance, and consult a qualified financial adviser before making investment decisions.*
 
 </div>
