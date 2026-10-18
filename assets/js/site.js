@@ -58,6 +58,8 @@
 
   const articleIndex = $("#article-index");
   const articleGrid = $("[data-article-grid]");
+  const articleContinuation = $("[data-article-continuation]");
+  const archiveExternalWork = $("[data-archive-external-work]");
   const articleSearch = $("[data-article-search]");
   const topicFilters = $("[data-topic-filters]");
   const typeFilters = $("[data-type-filters]");
@@ -81,6 +83,7 @@
       type: params.get("type") || "All"
     };
     const initialGridMarkup = articleGrid.innerHTML;
+    const initialContinuationMarkup = articleContinuation?.innerHTML || "";
 
     const curatedTopics = [
       "Solana",
@@ -175,6 +178,11 @@
 
     const restoreDefaultArticles = () => {
       articleGrid.innerHTML = initialGridMarkup;
+      if (articleContinuation) {
+        articleContinuation.innerHTML = initialContinuationMarkup;
+        articleContinuation.hidden = articleContinuation.children.length === 0;
+      }
+      if (archiveExternalWork) archiveExternalWork.hidden = false;
       articleEmpty.hidden = true;
       if (pagination) pagination.hidden = false;
       articleResults.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"}`;
@@ -210,6 +218,11 @@
       });
 
       articleGrid.innerHTML = matches.map(articleCard).join("");
+      if (articleContinuation) {
+        articleContinuation.innerHTML = "";
+        articleContinuation.hidden = true;
+      }
+      if (archiveExternalWork) archiveExternalWork.hidden = true;
       articleEmpty.hidden = matches.length !== 0;
       if (pagination) pagination.hidden = true;
       articleResults.textContent = `${matches.length} article${matches.length === 1 ? "" : "s"} found`;
