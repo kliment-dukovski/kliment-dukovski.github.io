@@ -1,3 +1,12 @@
+- period: "2026 — present"
+  role: "Independent Writer & Publisher"
+  company: "klimentdukovski.com"
+  description: "Research, write, fact-check, and publish original crypto and investing articles. Recent work combines hands-on product testing, on-chain data, and primary-source research, including a Fomo review examining 476,627 Solana wallets. Own the site's content updates and publishing workflow."
+  links:
+    - label: "Original research and reviews"
+      url: "/articles/"
+      external: false
+
 - period: "2023 — 2025"
   role: "In-house Crypto Writer/Editor"
   company: "ClickOut Media"
@@ -19,7 +28,17 @@
       url: "https://www.finder.com/stock-trading/options-strategies"
       external: true
 
-- period: "Earlier"
+- period: "Contributor"
+  role: "Finance & Crypto Writer"
+  company: "Finbold"
+  description: "Contributed finance and cryptocurrency articles to Finbold. Selected published work is available in my author archive."
+  links:
+    - label: "Finbold author archive"
+      url: "https://finbold.com/author/kliment/"
+      external: true
+
+# Exact freelance and Finbold dates require author confirmation before publication.
+- period: "Freelance projects"
   role: "Freelance Finance & Crypto Writer"
   company: "Multiple publications"
   description: "Worked with multiple clients as a freelance writer to deliver over 700 articles covering forex, investing, technical analysis, trading, and cryptocurrency. Some of the work included testing more than 200 expert advisors (automated trading robots) and writing an ebook on identifying the most effective one for different scenarios."

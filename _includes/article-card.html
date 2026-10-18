@@ -41,7 +41,7 @@
 
     {% if include.post.tags and include.post.tags != empty %}
       <div class="tag-list" aria-label="Article topics">
-        {% for tag in include.post.tags limit: 4 %}
+        {% for tag in include.post.tags limit: 1 %}
           <a class="tag" href="{{ '/articles/' | relative_url }}?topic={{ tag | url_encode }}">{{ tag | escape }}</a>
         {% endfor %}
         {% if include.post.content_type %}

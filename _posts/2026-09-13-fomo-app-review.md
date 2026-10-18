@@ -3,10 +3,12 @@ layout: article
 title: "Fomo App Review 2026: Are Only 5% of Fomo Traders Profitable?"
 seo_title: "Fomo App Review 2026: Fees, Risks & Profit Data"
 date: 2026-09-13
-last_modified_at: 2026-09-13
+last_modified_at: 2026-10-17
+toc: true
 category: "Crypto"
 content_type: "Review"
 featured: true
+portfolio_order: 1
 tags:
   - Fomo app review
   - Fomo trading app
@@ -63,6 +65,10 @@ faq:
 
 <link rel="stylesheet" href="{{ '/assets/css/fomo-app-review.css' | relative_url }}?v={{ site.github.build_revision }}">
 
+<div class="affiliate-disclosure"><strong>Affiliate disclosure:</strong> I may earn a referral fee if you sign up and trade using my Fomo referral link.</div>
+
+<nav class="article-toc" aria-label="On this page"><h2>On this page</h2><ol><li><a href="#fomo-app-pros-and-cons">Fomo app pros and cons</a></li><li><a href="#fomo-app-review-key-findings">Fomo app review: Key findings</a></li><li><a href="#what-is-the-fomo-app">What is the Fomo app?</a></li><li><a href="#how-i-tested-fomo">How I tested Fomo</a></li><li><a href="#what-i-liked-about-fomo">What I liked about Fomo</a></li><li><a href="#what-i-didnt-like-about-fomo">What I didn’t like about Fomo</a></li><li><a href="#are-fomo-traders-profitable-what-the-dune-data-says">Are Fomo traders profitable? What the Dune data says</a></li><li><a href="#is-the-fomo-app-safe-and-legitimate">Is the Fomo app safe and legitimate?</a></li><li><a href="#who-should-use-fomo">Who should use Fomo?</a></li><li><a href="#who-shouldnt-use-fomo">Who shouldn’t use Fomo?</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#frequently-asked-questions">Frequently asked questions</a></li></ol></nav>
+
 <div class="fomo-review" markdown="1">
 
 Fomo is one of the easiest apps I have used to see how crypto traders are positioning and then buy the same tokens in my account.
@@ -80,8 +86,9 @@ I bought a few tokens I saw KOLs buying, and a few days later those positions we
 Another question I had was whether other Fomo traders were profitable. A viral X post from @FoxyhitsW claimed that only about 5% of 429,000 traders were in profit. I found the public Dune query behind the claim, forked it, and reran it.
 
 <blockquote class="twitter-tweet" data-dnt="true" align="center"><p lang="en" dir="ltr">dark truth about trading no one tells you:<br><br>&gt; out of 429k traders on fomo, 24k traders (5%) are in profit<br>&gt; only 500 traders have made more than $1k ever<br>&gt; majority have just profited $100 or less<br>&gt; and 95% of the traders are in a loss<br><br>youre trying to compete for that 1% spot… <a href="https://t.co/MY6spYV9iZ">pic.twitter.com/MY6spYV9iZ</a></p>&mdash; Foxy (@FoxyhitsW) <a href="https://x.com/FoxyhitsW/status/2094307323162525977?ref_src=twsrc%5Etfw">August 31, 2026</a></blockquote>
-
 <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+
+
 
 My September 2 run classified 27,130 of 476,627 wallets, or 5.69%, as net positive. That does not mean 94.31% of Fomo users lost money. The query measures 90-day net SOL and stablecoin cash flow on Solana, not full realized and unrealized PnL. I later found another issue: the address sending funds to Fomo’s fee vault is not always the user signer who placed the trade.
 
@@ -93,7 +100,7 @@ While the app’s main focus is meme coin social trading, you can also trade cry
 
 Trading execution is fast, but expect high fees and slippage on illiquid tokens and blockchains like the Robinhood Chain. Another downside is that if selling a token has high price impact, Fomo may not let you sell it.
 
-## Fomo app pros and cons
+## Fomo app pros and cons {#fomo-app-pros-and-cons}
 
 <div class="fomo-review-columns">
   <section class="fomo-review-panel fomo-review-panel--pros" aria-labelledby="fomo-pros">
@@ -117,7 +124,7 @@ Trading execution is fast, but expect high fees and slippage on illiquid tokens 
   </section>
 </div>
 
-## Fomo app review: Key findings
+## Fomo app review: Key findings {#fomo-app-review-key-findings}
 
 <table class="fomo-review-findings">
 <thead>
@@ -141,7 +148,7 @@ Trading execution is fast, but expect high fees and slippage on illiquid tokens 
 </tr>
 <tr>
 <th scope="row">Deposits</th>
-<td><p>Solana Base, BNB, Monad, Robinhood Chain, Hyperliquid, Ethereum; My Solana transfer took seconds</p>
+<td><p>Solana, Base, BNB, Monad, Robinhood Chain, Hyperliquid, Ethereum; My Solana transfer took seconds</p>
 <p>Coinbase deposits</p>
 <p>Apple Pay, Google Pay, Cash App</p></td>
 </tr>
@@ -174,7 +181,7 @@ Trading execution is fast, but expect high fees and slippage on illiquid tokens 
 </tbody>
 </table>
 
-## What is the Fomo app?
+## What is the Fomo app? {#what-is-the-fomo-app}
 
 The Fomo app is a social trading app that combines token swaps, perps, a live trade feed, trader profiles you can follow, and leaderboards in one interface. It has both a mobile app and a desktop app, and they're synchronized.
 
@@ -200,7 +207,7 @@ Unlike most crypto apps, Fomo has abstracted away the crypto layer. Fomo generat
 
 With multiple blockchain wallets built into the app, buying tokens across blockchains is straightforward, and you don’t need to bridge assets. Even if you deposit your tokens on Solana, you can buy tokens on Robinhood Chain or BNB by tapping the “Buy” button.
 
-## How I tested Fomo
+## How I tested Fomo {#how-i-tested-fomo}
 
 I first deposited \$5, but high slippage and fees ate through the funds, so I transferred more, for a total of about \$20. I used both the mobile and desktop apps, followed several traders, bought and sold small token positions, and captured screenshots for this review.
 
@@ -231,7 +238,7 @@ By the time I wrote this article, I hadn’t completed a withdrawal, but I assum
 
 Finally, I forked the public Dune query shared on X and added more output buckets. That part of the test covered 476,627 tagged Solana wallet addresses over a rolling 90-day window.
 
-## What I liked about Fomo
+## What I liked about Fomo {#what-i-liked-about-fomo}
 
 There’s a lot to like about this app, as it solves a major pain point from the previous bull run: making meme trading fun and engaging. Before this, users had to spend days in “the trenches,” navigating Discord and Telegram communities and searching for token launches on Pump.fun to find the right meme coin.
 
@@ -281,7 +288,7 @@ Larger accounts in the top 20 of the leaderboard often share their thoughts on w
   <figcaption>Fomo mobile app social feed</figcaption>
 </figure>
 
-### Contract address search reduces ticker confusion 
+### Contract address search reduces ticker confusion
 
 Fomo has a search function that lets you look up a token by contract address (CA). This is an important feature because scammers often create copies of a token with the same name and logo, confusing investors into buying a worthless copy.
 
@@ -321,7 +328,7 @@ When opening a position, you can set stop-loss and take-profit levels, adjust le
   <figcaption>Fomo Oil perps</figcaption>
 </figure>
 
-## What I didn’t like about Fomo
+## What I didn’t like about Fomo {#what-i-didnt-like-about-fomo}
 
 While it’s an excellent and fun way to trade meme coins, it’s not easy to make money. I’m not just talking about the sheer number of tokens that pop up daily. I’m talking about high fees and slippage, which can eat into your potential profit right off the bat.
 
@@ -353,11 +360,12 @@ The result was poor and worse than I expected. Moreover, the app wouldn’t let 
 
 This doesn’t seem to be an isolated case. I’ve seen several X users complain about this as well.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">dude i genuinely love <a href="https://x.com/fomo?ref_src=twsrc%5Etfw">@fomo</a>’s UI, but buying a $4m robinhood token with $500 and ending up with only $468 is crazy.<br><br>38% price impact on a 3-figure trade, plus fees and slippage taking another 6.4%?<br><br>it feels like you get taxed for pressing buy. this needs to be fixed.</p>&mdash; WASSIE (@0xWassie) <a href="https://x.com/0xWassie/status/2095867614387912740?ref_src=twsrc%5Etfw">September 4, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">dude i genuinely love <a href="https://x.com/fomo?ref_src=twsrc%5Etfw">@fomo</a>’s UI, but buying a $4m robinhood token with $500 and ending up with only $468 is crazy.<br><br>38% price impact on a 3-figure trade, plus fees and slippage taking another 6.4%?<br><br>it feels like you get taxed for pressing buy. this needs to be fixed.</p>&mdash; WASSIE (@0xWassie) <a href="https://x.com/0xWassie/status/2095867614387912740?ref_src=twsrc%5Etfw">September 4, 2026</a></blockquote>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
 
 I can’t guarantee this is exactly what these X posts claim without seeing the transactions, but since I had similar results, I’m not overly skeptical.
 
-Get a 10% discount on Fomo’s trading fees is by using [<u>my referral code</u>](https://fomo.family/r/lyslam).
+Get a 10% discount on Fomo’s trading fees by using <a href="https://fomo.family/r/lyslam" rel="sponsored noopener">my referral code</a> (I may earn a referral fee).
 
 ### Leaderboard problem
 
@@ -374,7 +382,7 @@ I couldn’t confirm whether this was an airdrop or whether the traders bought t
 
 Moreover, top 10 traders held their largest positions in three to five tokens. The rest were either very small compared to their top winning positions or in the red.
 
-## Are Fomo traders profitable? What the Dune data says
+## Are Fomo traders profitable? What the Dune data says {#are-fomo-traders-profitable-what-the-dune-data-says}
 
 The public evidence I found suggests that relatively few Fomo-tagged Solana wallets had positive cash flow during the period measured. It does not establish the full profit or loss for every user.
 
@@ -384,7 +392,7 @@ At the August 17, 2026, snapshot, the post reported 292,531 wallets, with 18,033
 
 Those figures spread quickly, with @FoxyhitsW claiming that around 24,000 of 429,000 traders were in profit and that only around 500 traders had made more than \$1,000.
 
-The last word is misleading, since the query covers the preceding 90 days, not the app's full history.
+The claim that these are lifetime profits is misleading, since the query covers the preceding 90 days, not the app's full history.
 
 ### My September 2 rerun
 
@@ -451,7 +459,7 @@ Calculating true PnL would require the opening token inventory and cost basis fo
 
 My audit therefore does not prove that the original 6.16% figure is false. It shows that the public query lacks enough information to establish the true percentage of profitable Fomo users.
 
-## Is the Fomo app safe and legitimate?
+## Is the Fomo app safe and legitimate? {#is-the-fomo-app-safe-and-legitimate}
 
 Yes, the Fomo app is a real, funded product that routes genuine on-chain trades. Fomo announced a [<u>$75 million Series B</u>](https://fomo.family/blog/fomo-series-b) in June 2026, led by Index Ventures, with Union Square Ventures and Benchmark participating.
 
@@ -472,13 +480,13 @@ While the app itself is legit, the risk comes from four categories:
 
 - **Wallet and account risk.** Losing control of the linked account means you don’t have access to the funds. However, using email login carries less risk than using 24-word seed phrases.
 
-## Who should use Fomo?
+## Who should use Fomo? {#who-should-use-fomo}
 
 Fomo is a reasonable fit for experienced crypto traders who understand liquidity, contract addresses, token concentration, and risks. It can save time when tracking active wallets and narratives across multiple blockchains.
 
 It can also help cautious beginners who treat the feed as educational and do their own due diligence.
 
-## Who shouldn’t use Fomo?
+## Who shouldn’t use Fomo? {#who-shouldnt-use-fomo}
 
 I wouldn’t recommend it as an automatic route to someone else’s return. If you want to copy trade, you won’t be able to do so directly in the Fomo app.
 
@@ -490,10 +498,10 @@ While it can be a fun experience, it can quickly turn addictive, especially if y
 
 Traders have already built some useful tools you can try to find the next potential gem.
 
-[<u>Rhrtrenches</u>](https://rhtrenches.com/) is one of those, giving you a quick look at what is being bought and sold, and by whom, in real time on the Robinhood Chain.
+[<u>Rhtrenches</u>](https://rhtrenches.com/) is one of those, giving you a quick look at what is being bought and sold, and by whom, in real time on the Robinhood Chain.
 
 <figure class="article-figure">
-  <img src="{{ '/assets/images/fomo-app-review/rhtrenches-robinhood-chain-feed.webp' | relative_url }}" alt="rhrtrenches" width="2048" height="977" loading="lazy" decoding="async">
+  <img src="{{ '/assets/images/fomo-app-review/rhtrenches-robinhood-chain-feed.webp' | relative_url }}" alt="Rhtrenches" width="2048" height="977" loading="lazy" decoding="async">
   <figcaption>rhrtrenches</figcaption>
 </figure>
 
@@ -508,7 +516,7 @@ Traders have already built some useful tools you can try to find the next potent
 
 </aside>
 
-## Conclusion
+## Conclusion {#conclusion}
 
 Fomo’s best product is the social feed. You can track what the top traders buy and sell, and, more importantly, when. Granted, they could be wrong, so you shouldn’t follow them blindly. Use it as a starting point, then do your own due diligence. You may be a step closer to finding some gems.
 
@@ -518,7 +526,7 @@ However, the app is highly addictive and may not suit everyone. Never deposit mo
 
 The Dune data also does not prove that only 5% to 6% of Fomo users made money. It shows that a small share of tagged Solana wallets had positive cash flow under one proxy methodology. Because that methodology does not reconstruct complete PnL and may not always identify the actual user behind a relayed transaction, I couldn’t verify the true user-profitability rate.
 
-Get a 10% discount on Fomo’s trading fees by using [<u>my referral code</u>](https://fomo.family/r/lyslam).
+Get a 10% discount on Fomo’s trading fees by using <a href="https://fomo.family/r/lyslam" rel="sponsored noopener">my referral code</a> (I may earn a referral fee).
 
 ## Frequently asked questions {#frequently-asked-questions}
 

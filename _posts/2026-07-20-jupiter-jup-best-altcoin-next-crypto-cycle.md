@@ -5,6 +5,7 @@ date: 2026-07-20
 category: "Altcoins"
 content_type: "Investment Analysis"
 featured: true
+portfolio_order: 3
 tags:
   - Jupiter
   - JUP

@@ -1,4 +1,5 @@
 ---
+social_image: "/assets/images/social-articles.png"
 title: My Articles
 description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets, stablecoins, personal finance, and emerging technology."
 ---
@@ -78,7 +79,7 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
           href="{{ '/' | relative_url }}"
           data-nav-page="about"
         >
-          About
+          Home
         </a>
 
         <a
@@ -137,6 +138,8 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
 
       </div>
     </header>
+
+    {% include published-elsewhere.html %}
 
     <section class="section" aria-label="All articles">
       <div class="container">
@@ -227,7 +230,7 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>
-        © <span data-current-year></span> Kliment Dukovski
+        © <span data-current-year>{{ site.time | date: "%Y" }}</span> Kliment Dukovski
       </span>
 
       <span>

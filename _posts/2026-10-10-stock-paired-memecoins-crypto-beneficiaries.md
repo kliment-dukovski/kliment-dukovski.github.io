@@ -7,6 +7,7 @@ last_modified_at: "2026-10-18"
 category: Crypto
 content_type: Investment Analysis
 featured: true
+portfolio_order: 2
 tags:
 - stock-paired memecoins
 - memecoin stock pairs

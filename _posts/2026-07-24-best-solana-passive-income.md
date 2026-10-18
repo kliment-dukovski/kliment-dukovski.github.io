@@ -7,6 +7,7 @@ last_modified_at: 2026-07-25
 category: "Solana"
 content_type: "Practical Guide"
 featured: true
+portfolio_order: 3
 tags:
   - Solana passive income
   - SOL staking

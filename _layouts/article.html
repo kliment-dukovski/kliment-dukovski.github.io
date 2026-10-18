@@ -73,7 +73,7 @@
           href="{{ '/' | relative_url }}"
           data-nav-page="about"
         >
-          About
+          Home
         </a>
 
         <a
@@ -140,7 +140,7 @@
         {% endif %}
 
         <p class="article-byline">
-          By Kliment Dukovski
+          By Kliment Dukovski · {{ content | strip_html | number_of_words | plus: 219 | divided_by: 220 }} min read
         </p>
       </header>
 
@@ -165,7 +165,7 @@
 
       <div class="article-content container">
         {{ content }}
-        
+
         {% include author-box.html %}
       </div>
 
@@ -175,7 +175,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <span>
-        © <span data-current-year></span> Kliment Dukovski
+        © <span data-current-year>{{ site.time | date: "%Y" }}</span> Kliment Dukovski
       </span>
 
       <span>

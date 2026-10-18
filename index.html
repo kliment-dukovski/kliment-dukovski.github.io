@@ -1,4 +1,5 @@
 ---
+social_image: "/assets/images/social-home.png"
 title: "Kliment Dukovski"
 full_title: "Kliment Dukovski | Crypto, Finance & Market Research Writer"
 description: "Crypto and finance writer with 11+ years of experience in market research, investing, DeFi, fintech, data-led analysis, editing, and SEO/GEO."
@@ -18,7 +19,7 @@ description: "Crypto and finance writer with 11+ years of experience in market r
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="identity" href="index.html" aria-label="Kliment Dukovski home page">
+      <a class="identity" href="/" aria-label="Kliment Dukovski home page">
         <span class="avatar">
           <!-- Replace this file with your own square portrait. -->
           <img src="assets/images/profile.png" alt="Kliment Dukovski" width="84" height="84">
@@ -34,7 +35,7 @@ description: "Crypto and finance writer with 11+ years of experience in market r
       </button>
 
       <nav class="site-nav" id="site-navigation" data-menu aria-label="Primary navigation">
-        <a href="index.html" data-nav-page="about">About</a>
+        <a href="/" data-nav-page="about">Home</a>
         <a href="/articles/" data-nav-page="articles">My Articles</a>
         <a href="fiction.html" data-nav-page="fiction">Fiction Hub</a>
         <a href="work-history.html" data-nav-page="work">Work History</a>
@@ -53,10 +54,10 @@ description: "Crypto and finance writer with 11+ years of experience in market r
              <span class="hero-title-second-line">Market Research</span>
           </h1>
           <p class="hero-copy">
-            I turn market data, primary-source research, and complex crypto and financial topics into clear, useful content for investors, media, and industry audiences.
+            I turn market data, on-chain research, and hands-on product testing into clear content for investors, publishers, and Web3 teams.
           </p>
           <p class="hero-copy hero-copy-secondary">
-            Writer and editor with 11+ years of experience and more than 2,000 authored or ghostwritten articles. I combine hands-on market knowledge with primary-source research, data-led analysis, fact-checking, SEO/GEO, and editorial judgment for publishers, fintech companies, and Web3 businesses.
+            11+ years and 2,000+ articles for Finder, Cryptonews, Finbold, and others — from beginner investing guides to my analysis of 476,627 Fomo-tagged Solana wallets.
           </p>
           <div class="actions">
             <a class="button" href="#selected-work">View selected work</a>
@@ -68,8 +69,8 @@ description: "Crypto and finance writer with 11+ years of experience in market r
           <dl class="facts">
             <div><dt>Experience</dt><dd>11+ years</dd></div>
             <div><dt>Published</dt><dd>2,000+ articles</dd></div>
-            <div><dt>Specialisms</dt><dd>Crypto, investing &amp; fintech</dd></div>
-            <div><dt>Capabilities</dt><dd>Writing, editing, research &amp; SEO/GEO</dd></div>
+            <div><dt>At Finder</dt><dd>700+ articles</dd></div>
+            <div><dt>At ClickOut Media</dt><dd>1,400+ articles</dd></div>
           </dl>
         </aside>
       </div>
@@ -90,11 +91,11 @@ description: "Crypto and finance writer with 11+ years of experience in market r
       </div>
 
       <p class="section-note">
-        Research-driven crypto and finance writing, market analysis, and data-led product research.
+        First-hand product testing, on-chain analysis, and reporting that makes the limits of the evidence clear.
       </p>
     </header>
 
-    {% assign featured_posts = site.posts | where: "featured", true %}
+    {% assign featured_posts = site.posts | where: "featured", true | sort: "portfolio_order" %}
     <div class="article-grid">
       {% for post in featured_posts limit: 2 %}
         {% include article-card.html post=post %}
@@ -108,6 +109,8 @@ description: "Crypto and finance writer with 11+ years of experience in market r
     </div>
   </div>
 </section>
+
+    {% include published-elsewhere.html %}
 
     <section class="section" aria-labelledby="services-heading">
       <div class="container">
@@ -137,12 +140,13 @@ description: "Crypto and finance writer with 11+ years of experience in market r
           </article>
         </div>
 
-        <p class="expertise-line">
-          <strong>Markets:</strong> Crypto · DeFi · Stablecoins · Stocks · Options · ETFs · Futures · Forex · Credit products<br>
-          <strong>Publishing:</strong> WordPress · GitHub Pages · HTML · Markdown<br>
-          <strong>Search:</strong> Google Search Console · GA4 · Ahrefs · Semrush · SEO/GEO · Structured data · Metadata · Internal linking<br>
-          <strong>Research &amp; analysis:</strong> Primary sources · Market data · Dune Analytics · Blockchain explorers · On-chain research · Product testing · Comparative analysis · Fact-checking
-        </p>
+        <p class="expertise-line"><strong>Tools I use:</strong> WordPress · Google Search Console · Ahrefs · Semrush · Dune Analytics · Blockchain explorers</p>
+        <aside class="editorial-proof">
+          <p class="section-label">Editorial work in practice</p>
+          <h3>From source checks to publication</h3>
+          <p>At Finder, I updated personal-finance content for search, with multiple pages reaching the first page and select keywords reaching the top spot. On my independent site, I manage research, fact-checking, revisions, and publishing. The Fomo review shows that process: testing the product, rerunning a Dune query, and separating wallet cash flow from claims about trader profitability.</p>
+          <a class="more-link" href="/articles/fomo-app-review/#are-fomo-traders-profitable-what-the-dune-data-says">See the research and its limitations →</a>
+        </aside>
       </div>
     </section>
 
@@ -156,7 +160,7 @@ description: "Crypto and finance writer with 11+ years of experience in market r
           <p class="section-note">Selected roles from 11+ years of writing across crypto, finance, and investing.</p>
         </header>
 
-        {% include work-list.html limit=2 %}
+        {% include work-list.html limit=3 %}
 
         <div class="section-end">
           <a class="more-link" href="work-history.html">Read full work history →</a>
@@ -181,7 +185,7 @@ description: "Crypto and finance writer with 11+ years of experience in market r
       <div>
         <p class="section-label">Get in touch</p>
         <h2>Looking for an experienced crypto, finance, or market research writer?</h2>
-        <p>Available for remote full-time, part-time, contract, and freelance opportunities. Based in Macedonia, with working-hour overlap available for European and US teams.</p>
+        <p>Available for remote full-time, part-time, contract, and freelance opportunities. Based in North Macedonia (CET/CEST). Available to work US hours.</p>
       </div>
       <div class="contact-actions">
         <a class="button" href="mailto:dukovski.kliment@gmail.com">Send an email</a>
@@ -193,8 +197,7 @@ description: "Crypto and finance writer with 11+ years of experience in market r
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© <span data-current-year></span> Kliment Dukovski</span>
-      <span>Hosted on <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a></span>
+      <span>© <span data-current-year>{{ site.time | date: "%Y" }}</span> Kliment Dukovski</span>
     </div>
   </footer>
   <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "a5a2a0946bec4f4d86312fb2585818bd"}'></script><!-- End Cloudflare Web Analytics -->

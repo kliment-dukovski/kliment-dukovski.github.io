@@ -135,7 +135,7 @@
     };
 
     const articleCard = (article) => {
-      const tags = (article.tags || []).slice(0, 4);
+      const tags = (article.tags || []).slice(0, 1);
       const image = article.image
         ? `
           <a class="article-image-link" href="${escapeHtml(article.url)}" aria-label="Read ${escapeHtml(article.title)}">
