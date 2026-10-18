@@ -139,8 +139,6 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
       </div>
     </header>
 
-    {% include published-elsewhere.html %}
-
     <section class="section" aria-label="All articles">
       <div class="container">
         <div class="article-tools" data-article-tools>
@@ -163,10 +161,33 @@ description: "Articles by Kliment Dukovski on cryptocurrency, investing, markets
         </div>
 
         <div class="article-grid" data-article-grid>
-          {% for post in paginator.posts %}
-            {% include article-card.html post=post %}
-          {% endfor %}
+          {% if paginator.page > 1 %}
+            {% for post in paginator.posts %}
+              {% include article-card.html post=post %}
+            {% endfor %}
+          {% else %}
+            {% for post in paginator.posts limit: 4 %}
+              {% include article-card.html post=post %}
+            {% endfor %}
+          {% endif %}
         </div>
+
+      </div>
+
+      {% unless paginator.page > 1 %}
+        <div class="archive-external-work" data-archive-external-work>
+          {% include published-elsewhere.html %}
+        </div>
+      {% endunless %}
+
+      <div class="container">
+        {% unless paginator.page > 1 %}
+          <div class="article-grid" data-article-continuation>
+            {% for post in paginator.posts offset: 4 %}
+              {% include article-card.html post=post %}
+            {% endfor %}
+          </div>
+        {% endunless %}
 
         <p class="empty-state" data-article-empty hidden>No articles match those filters.</p>
 
