@@ -1323,12 +1323,16 @@ body[data-page="work"] main > .section {
 }
 
 .author-box {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  column-gap: 20px;
+  row-gap: 8px;
   margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--line);
 }
 
-.author-box__label {
+.author-box .author-box__label {
   margin: 0 0 0.35rem;
   font-size: 0.78rem;
   font-weight: 600;
@@ -1337,7 +1341,7 @@ body[data-page="work"] main > .section {
   opacity: 0.65;
 }
 
-.author-box__name {
+.author-box .author-box__name {
   margin: 0 0 0.65rem;
   font-size: 1.25rem;
 }
@@ -1347,8 +1351,11 @@ body[data-page="work"] main > .section {
   text-decoration: none;
 }
 
+.author-box > :not(.author-headshot) { grid-column: 2; }
+
 .author-box p {
   max-width: 42rem;
+  margin: 0;
 }
 
 .hero-title-second-line {
@@ -1378,11 +1385,22 @@ body[data-page="work"] main > .section {
 .article-toc ol { columns:2; padding-left:22px; margin:0; font-size:.92rem; }
 .article-toc li { break-inside:avoid; margin-bottom:8px; }
 .affiliate-disclosure { background:var(--surface); border-left:3px solid var(--accent); padding:16px 20px; font-size:.9rem; }
-.author-headshot { float:left; border-radius:50%; object-fit:cover; margin:0 20px 12px 0; }
-.author-box::after { content:""; display:block; clear:both; }
+.article-content .author-headshot {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  width: 72px;
+  height: 72px;
+  max-width: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0;
+}
 @media(max-width:850px) { .pe-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:560px) { .pe-grid { grid-template-columns:1fr; } .article-toc ol { columns:1; } .pe-card { padding:20px; } }
 .article-image-link:has(img[src$="jupiter-logo.png"]) {
   background: radial-gradient(ellipse at 75% 25%, #325963 0%, #122b35 48%, #071427 100%);
 }
 .article-image[src$="jupiter-logo.png"] { object-fit:contain; padding:45px; mix-blend-mode:screen; }
+
+.archive-external-work { margin-block: 48px; }
+[data-article-continuation][hidden] { display: none; }
