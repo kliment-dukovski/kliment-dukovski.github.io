@@ -3,7 +3,7 @@ layout: article
 title: 'Memecoins Paired With Wall Street Stocks: Which Crypto Projects Benefit?'
 seo_title: 'Stock-Paired Memecoins: Which Crypto Projects Benefit?'
 date: '2026-10-10'
-last_modified_at: "2026-10-25"
+last_modified_at: "2026-10-26"
 category: Crypto
 content_type: Investment Analysis
 featured: true
