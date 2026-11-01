@@ -1,12 +1,27 @@
 ---
 layout: article
-title: "5 Solana Programming Concepts Explained Using a Simple Vault Program"
+title: 5 Solana Programming Concepts Explained Using a Simple Vault Program
 date: 2026-11-01
 category: Solana
 content_type: Technical Writing
 publication: Kliment Dukovski
 slug: solana-programming-concepts-vault
 permalink: /articles/solana-programming-concepts-vault/
+seo_title: 5 Solana Programming Concepts Explained Using an Anchor Vault
+last_modified_at: '2026-11-01'
+featured: false
+tags:
+- Solana programming
+- Technical writing
+summary: Learn how Solana accounts, programs, PDAs, transactions, and CPIs work through
+  a simple Anchor vault built for the Turbin3 prerequisites.
+description: Learn how Solana accounts, programs, PDAs, transactions, and CPIs work
+  through a simple Anchor vault built for the Turbin3 prerequisites.
+image: /assets/images/solana-programming-concepts-vault/solana-vault-featured.webp
+image_alt: Solana logo and a vault door with a code symbol on glowing blue and purple
+  glass panels
+image_width: 1672
+image_height: 941
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/solana-programming-concepts.css' | relative_url }}?v={{ site.github.build_revision }}">
