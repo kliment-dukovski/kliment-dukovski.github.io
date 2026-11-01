@@ -1,0 +1,49 @@
+/* Scoped to this article; other pages retain their existing styles. */
+.solana-programming-body { min-width: 0; }
+.solana-programming-body .solana-concept-box {
+  margin: 2rem 0; padding: 1.5rem;
+  border: 1px solid #cbd8e7; border-left: 4px solid #1762bf;
+  border-radius: 10px; background: #f2f7fc;
+}
+.solana-programming-body .solana-concept-box > :first-child { margin-top: 0; }
+.solana-programming-body .solana-concept-box > :last-child { margin-bottom: 0; }
+.solana-programming-body .highlight,
+.solana-programming-body pre {
+  background: #0b1729; color: #e4edf7; border-radius: 10px;
+}
+.solana-programming-body div.highlighter-rouge { margin: 1.75rem 0; }
+.solana-programming-body div.highlight { margin: 0; }
+.solana-programming-body pre {
+  box-sizing: border-box; max-width: 100%; margin: 0;
+  padding: 1.35rem; overflow-x: auto; line-height: 1.7;
+  border: 1px solid #24364e; tab-size: 4;
+}
+.solana-programming-body pre code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: .86rem; white-space: pre; background: transparent;
+  color: inherit; padding: 0; border: 0;
+}
+.solana-programming-body .highlight .c,
+.solana-programming-body .highlight .c1,
+.solana-programming-body .highlight .cm,
+.solana-programming-body .highlight .cs { color: #a5b5c8; }
+.solana-programming-body .highlight .k,
+.solana-programming-body .highlight .kd,
+.solana-programming-body .highlight .kn,
+.solana-programming-body .highlight .kt,
+.solana-programming-body .highlight .kr { color: #c7a9ff; }
+.solana-programming-body .highlight .s,
+.solana-programming-body .highlight .s1,
+.solana-programming-body .highlight .s2 { color: #a9dfaa; }
+.solana-programming-body .highlight .nf,
+.solana-programming-body .highlight .nb { color: #9ad7ff; }
+.solana-programming-body .highlight .mi,
+.solana-programming-body .highlight .mf,
+.solana-programming-body .highlight .m { color: #f5c78e; }
+.solana-programming-body .highlight .err { color: inherit; background: transparent; }
+.solana-programming-body .article-figure img { max-width: 100%; height: auto; }
+@media (max-width: 600px) {
+  .solana-programming-body .solana-concept-box { padding: 1rem; }
+  .solana-programming-body pre { padding: 1rem; }
+  .solana-programming-body pre code { font-size: .78rem; }
+}
