@@ -18,17 +18,18 @@ summary: Learn how Solana accounts, programs, PDAs, transactions, and CPIs work 
 description: Learn how Solana accounts, programs, PDAs, transactions, and CPIs work
   through a simple Anchor vault built for the Turbin3 prerequisites.
 image: /assets/images/solana-programming-concepts-vault/solana-vault-featured.webp
-image_alt: Solana logo and a vault door with a code symbol on glowing blue and purple
-  glass panels
+image_alt: Solana logo connected to accounts, programs, PDAs, instructions and transactions,
+  and CPIs in glowing glass panels
 image_width: 1672
 image_height: 941
+social_image: /assets/images/solana-programming-concepts-vault/solana-concepts-social.jpg
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/solana-programming-concepts.css' | relative_url }}?v={{ site.github.build_revision }}">
 
 <div class="solana-programming-body" markdown="1">
 
-I compiled five programming concepts you need to start coding on Solana, including accounts, programs, and transactions. At the end, I show you a vault program I had to complete to join the Turbin3 Builders Cohort. I explain how the program works and what changes I had to make to complete the task.
+I compiled five programming concepts you need to know to start coding on Solana, including accounts, programs, and transactions. At the end, I show you a vault program I had to complete to join the Turbin3 Builders Cohort. I explain how the program works and what changes I had to make to complete the task.
 
 ## Solana Accounts
 
@@ -46,7 +47,7 @@ At its core, a Solana account has:
 
 - **Lamports**, the lowest fractional unit of SOL (1 SOL = 1,000,000,000 lamports). This is the account’s balance.
 
-- **Owner**: the Program ID of the program that owns the account. Only the program that owns the account can modify the data and spend the lamports from it. A standard wallet account is owned by the System Program, but the user who holds the keys can sign transactions.
+- **Owner**, the Program ID of the program that owns the account. Only the program that owns the account can modify the data and spend the lamports from it. A standard wallet account is owned by the System Program, but the user who holds the keys can sign transactions.
 
 - **Executable flag**, which can be true or false. If the account is a program, it’s set to true, meaning the account holds compiled on-chain executable code. If it’s a data account, the executable flag is set to false, meaning it only stores data.
 
