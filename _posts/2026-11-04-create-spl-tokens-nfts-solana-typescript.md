@@ -1,6 +1,6 @@
 ---
 layout: article
-title: How to Create SPL Tokens and NFTs on Solana Using Solana Kit and Metaplex Core
+title: How to Create SPL Tokens and NFTs on Solana Using SolanaKit and Metaplex Core
 seo_title: Create SPL Tokens & NFTs on Solana with TypeScript
 date: '2026-11-04'
 last_modified_at: '2026-11-04'
@@ -38,46 +38,46 @@ faq:
     uses an SPL mint and token account.
 - question: Is an NFT’s image stored on Solana?
   answer: Not in this example. The Core Asset stores a metadata URI. The JSON at that URI contains a link to
-    the uploaded PNG, which in our case was stored on Irys, a decentralized data storage solution. The walkthrough
-    uses the Irys devnet for test uploads. The site’s featured image is hosted separately.
+    the uploaded PNG, which in our case was stored on Irys, a decentralized data storage solution. On devnet,
+    all images uploaded via Irys are deleted after 60 days. On mainnet, uploaded images are permanent.
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/solana-programming-concepts.css' | relative_url }}?v={{ site.github.build_revision }}">
 
 <div class="solana-programming-body" markdown="1">
 
-*A devnet walkthrough using Solana Kit, Umi, and Metaplex Core, based on my Turbin3 token and NFT examples.*
+*A devnet walkthrough using SolanaKit, Umi, and Metaplex Core, based on my Turbin3 token and NFT examples.*
 
 To create an SPL token with TypeScript, you create a mint account that identifies the token and stores its supply, decimals, and who can mint and freeze tokens. When creating NFTs via Metaplex Core, you upload the image and metadata, then create an Asset account that records ownership and the metadata URI (a Uniform Resource Identifier that points to an off-chain JSON metadata file).
 
-In the first week of the Turbin3 Builders Cohort, we worked on a TypeScript project to create a six-decimal token, mint 1,000 tokens, transfer 100 to another wallet, attach metadata, and create and update an NFT. The [completed repository](https://github.com/kliment-dukovski/turbine-spl-nft-26) is based on [ShrinathNR’s starter project](https://github.com/ShrinathNR/turbine-spl-nft-26), which provided the project structure, while I implemented the missing operations and added the NFT update script.
+In the first week of the Turbin3 Builders Cohort, we worked on a TypeScript project to create a six-decimal token, mint 1,000 tokens, transfer 100 to another wallet, attach metadata, and create and update an NFT. The [<u>completed repository</u>](https://github.com/kliment-dukovski/turbine-spl-nft-26) is based on [<u>ShrinathNR’s starter project</u>](https://github.com/ShrinathNR/turbine-spl-nft-26), which provided the project structure, while I implemented the missing operations and added the NFT update script.
 
-Of course, this is not the only way to mint and launch tokens and NFTs on Solana. You can do so via CLI tools or token and NFT launchpads. But that goes beyond the scope of this article. Here, I’ll focus on Solana Kit, a modular JavaScript and TypeScript SDK for token account creation, minting, and transfers, and Metaplex Core, an NFT standard for minting NFTs and adding metadata.
+Of course, this is not the only way to mint and launch tokens and NFTs on Solana. You can do so via CLI tools or token and NFT launchpads. But that goes beyond the scope of this article. Here, I’ll focus on SolanaKit, a modular JavaScript and TypeScript SDK for token account creation, minting, and transfers, and Metaplex Core, an NFT standard for minting NFTs and adding metadata.
 
 ## How SPL tokens work
 
-SPL stands for Solana Program Library. The [Token Program](https://solana.com/docs/tokens) defines how SPL tokens are minted, transferred, and burned.
+SPL stands for Solana Program Library, which is the [<u>token standard</u>](https://solana.com/docs/tokens) on Solana. These tokens use a shared Token program to mint, transfer, and burn.
 
 Tokens can be created by two programs on Solana: the Token Program and the Token Extension Program, also known as Token 2022. Think of the first as Solana's original program for creating tokens, while the second is a newer program that adds extra features, such as transfer fees, through *extensions*. In my example, I use the original Token Program.
 
 Tokens that function as currencies are fungible, meaning they are interchangeable and all have the same value. When I send 100 units of my example token, the recipient receives a balance of 100. None of these 100 tokens has a separate identity, just like your \$10 bill; no matter which one you hold, it has the same \$10 value.
 
-Non-fungible tokens (NFTs), on the other hand, are unique. Each NFT has its own identity, even when it shares traits with others in a collection. Think of NFTs like art pieces, where each one is different from the others. However, NFTs aren't limited to art. Because each one is unique, they can be used as event tickets or forms of ID.
+Non-fungible tokens (NFTs), on the other hand, are unique. Each token has a distinct identity and traits that differ within a single collection. Think of NFTs like art pieces, where each one is different from the others. However, NFTs aren't limited to art. Because each one is unique, they can be used as event tickets or forms of ID.
 
 Before we get to the code, there are four terms to understand that will make the code easier to follow.
 
 | Term                           | What it does                                                                                                                   | In this project                                     |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | Mint account                   | The token’s blueprint; it identifies it and stores supply, decimals, and authorities                                           | One mint defines the fungible token                 |
-| Token account                  | Holds units of a specific mint and records the authority that can spend them | Sender and recipient are two separate accounts      |
+| Token account                  | Shows how many tokens are within a single account (eg., your crypto wallet) and shows who controls the account to debit tokens | Sender and recipient are two separate accounts      |
 | Associated Token Account (ATA) | A token account at a predictable address derived from the wallet address, mint address, and Token Program ID                   | Sender and recipient each have an ATA for this mint |
 | Wallet signer                  | Uses wallet’s keys to sign (authorize) transactions                                                                            | The project wallet pays and signs transactions      |
 
-A single mint identifies the token. Multiple token accounts can hold units of that mint, and a wallet can control more than one token account.
+One SPL token can have one mint account (which stores the token’s information) and an unlimited number of token accounts (each representing a crypto wallet’s token balance).
 
 ## Set up the project
 
-You need basic knowledge of JavaScript or TypeScript, [Node.js](https://nodejs.org/) and npm, Git, and a Solana CLI for wallet and funding commands. You also need an image for the NFT. I used Turbin3 Warrior.png.
+You need basic knowledge of JavaScript or TypeScript, [<u>Node.js</u>](http://node.js) and npm, Git, and a Solana CLI for wallet and funding commands. You also need an image for the NFT. I used Turbin3 Warrior.png.
 
 Clone the instructor’s starter project and select the fixed revision used in this walkthrough.
 
@@ -99,7 +99,7 @@ solana airdrop 2 --keypair ./devnet-wallet.json --url devnet
 solana balance --keypair ./devnet-wallet.json --url devnet
 ```
 
-If you can’t get your 2 SOL, visit the [Solana faucet](https://faucet.solana.com/) and request devnet SOL using your Solana public address.
+If you can’t get your 2 SOL, visit the [<u>Solana faucet</u>](https://faucet.solana.com/) and request devnet SOL using your Solana public address.
 
 ### Run order and code changes
 
@@ -230,7 +230,7 @@ console.log("Transaction signature:", transactionSignature);
 
 The project wallet signs to pay for creation and fees, while the mint keypair signs to authorize account creation. The assertion checks the transaction’s signatures, size, and lifetime type, but it doesn’t submit the transaction. The final call submits the transaction and waits for confirmation.
 
-This pattern comes from [Kit without a client](https://www.solanakit.com/docs/advanced-guides/kit-without-a-client). Other starter files build the message using intermediate variables instead of pipe, but both approaches use the same kind of instructions. My reference solution uses a named main() function, but that change isn’t required for the task.
+This pattern comes from [<u>Kit without a client</u>](https://www.solanakit.com/docs/advanced-guides/kit-without-a-client). Other starter files build the message using intermediate variables instead of pipe, but both approaches use the same kind of instructions. My reference solution uses a named main() function, but that change isn’t required for the task.
 
 Run npm run spl:init once. My output created:
 
@@ -294,7 +294,7 @@ const transferTx = getTransferCheckedInstruction({
 
 The sender funds the new ATA, but the recipient controls the tokens. Uncomment all sections up to the end.
 
-Run npm run spl:transfer. On a fresh run with the starting balances shown here, the sender’s balance goes from 1,000 to 900 and the recipient’s balance goes from 0 to 100.
+Run npm run spl:transfer. This should change the sender’s balance from 1,000 before the transfer to 900 after, and the recipient’s balance from 0 to 100.
 
 ### Add token metadata
 
@@ -340,7 +340,7 @@ Continue to uncomment everything else in this code and run npm run spl:metadata,
 
 NFTs are individually identifiable assets, each unique within a collection. For this example, I used a Turbin3 Warrior NFT in a cyberpunk landscape. The NFT account records ownership and links to its metadata.
 
-[Metaplex Core](https://www.metaplex.com/docs/smart-contracts/core/what-is-an-asset) uses a different account model than the fungible token we created. A Core NFT stores the owner, token name, URI, and update authority in an Asset account. Unlike the tokens we already made, these NFTs don’t require a separate SPL mint or ATA.
+[<u>Metaplex Core</u>](https://www.metaplex.com/docs/smart-contracts/core/what-is-an-asset) uses a different account model than the fungible token we created. A Core NFT stores the owner, token name, URI, and update authority in an Asset account. Unlike the tokens we already made, these NFTs don’t require a separate SPL mint or ATA.
 
 | **Detail**           | **Our SPL token**                                  | **Our Core NFT**                                   |
 |----------------------|----------------------------------------------------|----------------------------------------------------|
@@ -416,7 +416,7 @@ const signature = base58.deserialize(tx.signature)[0];
 console.log(`signature ${signature} , asset : ${asset.publicKey}`);
 ```
 
-generateSigner creates the new Asset keypair, while create builds the Core creation instruction. The final call signs, sends, and confirms, following [Metaplex’s Core creation flow](https://www.metaplex.com/docs/smart-contracts/core/create-asset).
+generateSigner creates the new Asset keypair, while create builds the Core creation instruction. The final call signs, sends, and confirms, following [<u>Metaplex’s Core creation flow</u>](https://www.metaplex.com/docs/smart-contracts/core/create-asset).
 
 Run npm run nft:mint to get your Asset address. Check the owner, name, URI, and update authority. Save these values before updating the NFT.
 
@@ -436,7 +436,7 @@ const metadata = {
 };
 ```
 
-Run npm run nft:metadata again to upload the new JSON file. This action doesn’t rewrite the earlier file or update the NFT yet. My revised URI was: [https://gateway.irys.xyz/DHNmq2uG6NJ3GtnMAYETivM4j498qYUwfSk9wcua4tjR](https://gateway.irys.xyz/DHNmq2uG6NJ3GtnMAYETivM4j498qYUwfSk9wcua4tjR)
+Run npm run nft:metadata again to upload the new JSON file. This action doesn’t rewrite the earlier file or update the NFT yet. My revised URI was: [<u>https://gateway.irys.xyz/DHNmq2uG6NJ3GtnMAYETivM4j498qYUwfSk9wcua4tjR</u>](https://gateway.irys.xyz/DHNmq2uG6NJ3GtnMAYETivM4j498qYUwfSk9wcua4tjR)
 
 The starter has no NFT update file, so you need to create one. Create src/nft/nft_update.ts and add this complete script, which reuses the mint script’s Umi setup with publicKey, fetchAsset, and update for working with an existing Asset. Replace the Asset address and revised URI with your own before running the script.
 
@@ -503,6 +503,6 @@ No. Core stores ownership in the Asset account. This is different from Metaplex 
 
 ### Is an NFT’s image stored on Solana?
 
-Not in this example. The Core Asset stores a metadata URI. The JSON at that URI contains a link to the uploaded PNG, which in our case was stored on Irys, a decentralized data storage solution. The walkthrough uses the Irys devnet for test uploads. The site’s featured image is hosted separately.
+Not in this example. The Core Asset stores a metadata URI. The JSON at that URI contains a link to the uploaded PNG, which in our case was stored on Irys, a decentralized data storage solution. On devnet, all images uploaded via Irys are deleted after 60 days. On mainnet, uploaded images are permanent.
 
 </div>
