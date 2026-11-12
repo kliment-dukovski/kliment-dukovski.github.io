@@ -1,111 +1,111 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-11T14:39:55Z",
+  "checked_at": "2026-11-12T15:31:56Z",
   "stonkfun": {
     "price": {
-      "value": 0.050869,
-      "display": "$0.0509",
+      "value": 0.04213864,
+      "display": "$0.0421",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/stonk-3",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 39462535.59045657,
-      "display": "$39.46M",
+      "value": 32699860.1606506,
+      "display": "$32.70M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/stonk-3",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 2989405.0,
-      "display": "$2.99M",
+      "value": 2814348.0,
+      "display": "$2.81M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/stonkfun",
-      "as_of": "2026-11-11T00:00:00Z",
+      "as_of": "2026-11-12T00:00:00Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$0.0509",
-    "market_cap_display": "$39.46M",
-    "revenue_display": "$2.99M"
+    "price_display": "$0.0421",
+    "market_cap_display": "$32.70M",
+    "revenue_display": "$2.81M"
   },
   "pump": {
     "price": {
-      "value": 0.00360305,
-      "display": "$0.00360305",
+      "value": 0.00335097,
+      "display": "$0.00335097",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/pump-fun",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 1650315036.5149374,
-      "display": "$1.65B",
+      "value": 1535747786.7383149,
+      "display": "$1.54B",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/pump-fun",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 49962450.45,
-      "display": "$49.96M",
+      "value": 49140965.47,
+      "display": "$49.14M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/pump",
-      "as_of": "2026-11-11T00:00:00Z",
+      "as_of": "2026-11-12T00:00:00Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$0.00360305",
-    "market_cap_display": "$1.65B",
-    "revenue_display": "$49.96M"
+    "price_display": "$0.00335097",
+    "market_cap_display": "$1.54B",
+    "revenue_display": "$49.14M"
   },
   "pons": {
     "price": {
-      "value": 0.154691,
-      "display": "$0.1547",
+      "value": 0.145076,
+      "display": "$0.1451",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/pons",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 103317274.27360006,
-      "display": "$103.32M",
+      "value": 97203541.71840888,
+      "display": "$97.20M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/pons",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 1505236.0,
-      "display": "$1.51M",
+      "value": 1426969.0,
+      "display": "$1.43M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/pons",
-      "as_of": "2026-11-11T14:39:55Z",
+      "as_of": "2026-11-12T15:31:56Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$0.1547",
-    "market_cap_display": "$103.32M",
-    "revenue_display": "$1.51M"
+    "price_display": "$0.1451",
+    "market_cap_display": "$97.20M",
+    "revenue_display": "$1.43M"
   },
   "backpack": {
     "price": {
-      "value": 0.849038,
-      "display": "$0.8490",
+      "value": 0.843886,
+      "display": "$0.8439",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/backpack",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 212264237.31855983,
-      "display": "$212.26M",
+      "value": 210971418.0892174,
+      "display": "$210.97M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/backpack",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
@@ -114,25 +114,25 @@
       "status": "unavailable",
       "reason": "A comparable public trailing 30-day protocol revenue figure is not available"
     },
-    "price_display": "$0.8490",
-    "market_cap_display": "$212.26M",
+    "price_display": "$0.8439",
+    "market_cap_display": "$210.97M",
     "revenue_display": "N/A"
   },
   "ondo": {
     "price": {
-      "value": 0.370592,
-      "display": "$0.3706",
+      "value": 0.344324,
+      "display": "$0.3443",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ondo-finance",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 1804397708.0016646,
-      "display": "$1.80B",
+      "value": 1676625029.5375154,
+      "display": "$1.68B",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/ondo-finance",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
@@ -140,12 +140,12 @@
       "display": "$0.00",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/ondo-finance",
-      "as_of": "2026-11-11T14:39:55Z",
+      "as_of": "2026-11-12T15:31:56Z",
       "status": "ok",
       "scope": "Ondo Yield Assets tracked by DefiLlama; not total Ondo company revenue or all stock-tokenization revenue"
     },
-    "price_display": "$0.3706",
-    "market_cap_display": "$1.80B",
+    "price_display": "$0.3443",
+    "market_cap_display": "$1.68B",
     "revenue_display": "$0.00"
   },
   "coinbase": {
@@ -208,123 +208,123 @@
   },
   "raydium": {
     "price": {
-      "value": 1.64,
-      "display": "$1.64",
+      "value": 1.55,
+      "display": "$1.55",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/raydium",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 443194415.9894259,
-      "display": "$443.19M",
+      "value": 418789319.87042636,
+      "display": "$418.79M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/raydium",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 2087460.0,
-      "display": "$2.09M",
+      "value": 2076176.0,
+      "display": "$2.08M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/raydium",
-      "as_of": "2026-11-11T14:39:55Z",
+      "as_of": "2026-11-12T15:31:56Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$1.64",
-    "market_cap_display": "$443.19M",
-    "revenue_display": "$2.09M"
+    "price_display": "$1.55",
+    "market_cap_display": "$418.79M",
+    "revenue_display": "$2.08M"
   },
   "meteora": {
     "price": {
-      "value": 0.299721,
-      "display": "$0.2997",
+      "value": 0.283708,
+      "display": "$0.2837",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/meteora",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 169419629.01229072,
-      "display": "$169.42M",
+      "value": 160417297.61888674,
+      "display": "$160.42M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/meteora",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 2555463.0,
-      "display": "$2.56M",
+      "value": 2546988.0,
+      "display": "$2.55M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/meteora",
-      "as_of": "2026-11-11T14:39:55Z",
+      "as_of": "2026-11-12T15:31:56Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$0.2997",
-    "market_cap_display": "$169.42M",
-    "revenue_display": "$2.56M"
+    "price_display": "$0.2837",
+    "market_cap_display": "$160.42M",
+    "revenue_display": "$2.55M"
   },
   "orca": {
     "price": {
-      "value": 1.26,
-      "display": "$1.26",
+      "value": 1.21,
+      "display": "$1.21",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/orca",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 76758986.4463944,
-      "display": "$76.76M",
+      "value": 73550873.85740799,
+      "display": "$73.55M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/orca",
-      "as_of": "2026-11-11T14:39:50Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 805215.0,
-      "display": "$805.22K",
+      "value": 789964.0,
+      "display": "$789.96K",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/orca",
-      "as_of": "2026-11-11T14:39:55Z",
+      "as_of": "2026-11-12T15:31:56Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$1.26",
-    "market_cap_display": "$76.76M",
-    "revenue_display": "$805.22K"
+    "price_display": "$1.21",
+    "market_cap_display": "$73.55M",
+    "revenue_display": "$789.96K"
   },
   "jupiter": {
     "price": {
-      "value": 0.260299,
-      "display": "$0.2603",
+      "value": 0.255211,
+      "display": "$0.2552",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/jupiter-exchange-solana",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "market_cap": {
-      "value": 863570189.4948386,
-      "display": "$863.57M",
+      "value": 847138098.5869676,
+      "display": "$847.14M",
       "source": "CoinGecko",
       "source_url": "https://www.coingecko.com/en/coins/jupiter-exchange-solana",
-      "as_of": "2026-11-11T14:39:34Z",
+      "as_of": "2026-11-12T15:31:43Z",
       "status": "ok"
     },
     "revenue": {
-      "value": 5272262.08,
-      "display": "$5.27M",
+      "value": 5147735.62,
+      "display": "$5.15M",
       "source": "DefiLlama",
       "source_url": "https://defillama.com/protocol/jupiter",
-      "as_of": "2026-11-11T00:00:00Z",
+      "as_of": "2026-11-12T00:00:00Z",
       "status": "ok",
       "scope": "Total tracked protocol revenue across products; includes activity beyond stock-paired memecoins"
     },
-    "price_display": "$0.2603",
-    "market_cap_display": "$863.57M",
-    "revenue_display": "$5.27M"
+    "price_display": "$0.2552",
+    "market_cap_display": "$847.14M",
+    "revenue_display": "$5.15M"
   },
-  "last_changed_at": "2026-11-11"
+  "last_changed_at": "2026-11-12"
 }
